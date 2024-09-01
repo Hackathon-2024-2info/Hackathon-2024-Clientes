@@ -35,10 +35,10 @@
 
 header {
     position: absolute;
-    max-width: 1440;
-    height: 262px;
-    left: -0.5px;
-    right: -0.5px;
+    width: 100%;
+    height: 18%;
+    left: -0.034%;
+    right: -0.034%;
     top: 78px;
     overflow: visible;
     display: inline-block;
@@ -61,7 +61,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 235%;
     background: linear-gradient(rgba(70, 63, 63, 0.055),
             rgba(255, 255, 255, 0.8));
     pointer-events: none;
