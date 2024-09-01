@@ -14,7 +14,9 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "bootstrap-vue": "^2.23.1",
-    "vue": "^3.4.38"
+    "hooper": "^0.3.4",
+    "vue": "^3.4.38",
+    "vue-carousel": "^0.18.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
