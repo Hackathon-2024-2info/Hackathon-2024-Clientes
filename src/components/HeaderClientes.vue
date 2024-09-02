@@ -14,6 +14,7 @@
             <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
             <p class="parceira">sua parceira para soluções em injetoras</p>
         </div>
+        <div class="fotos">
         <div class="img1">
             <img src="../assets/img1.png" alt="img1">
         </div>
@@ -23,6 +24,11 @@
         <div class="img3">
             <img src="../assets/img3.png" alt="img3">
         </div>
+
+        <div>
+            <img class="group" src="../assets/Group 1.png" alt="group1">
+        </div>
+    </div>
     </header>
 
 
@@ -34,6 +40,7 @@
 
 
 header {
+    display: flex;
     position: absolute;
     width: 100%;
     height: 18%;
@@ -46,17 +53,18 @@ header {
 }
 
 .banner {
+    display: flex;
     width: 100%;
     height: 262px;
     top: 78px;
     left: -0.5px;
-    gap: 0px;
     opacity: 0px;
     margin: none;
     object-fit: cover;
 }
 
 .degrade {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -68,9 +76,8 @@ header {
 }
 
 .somosavante {
-
+    display: flex;
     color: #0F0541;
-    width: 1050px;
     height: 128px;
     font-family: Readex Pro;
     font-size: 64px;
@@ -80,53 +87,63 @@ header {
     margin-top: 235px;
 }
 
-div .flechas {
+.flechas {
+    display: flex;
     position: absolute;
     width: 40px;
     height: 23px;
     left: 688px;
     top: 317px;
-
 }
 
 .parceira {
+    display: flex;
     position: absolute;
-    width: 748px;
     height: 30px;
     top: 287px;
-    left: 733px;
-    gap: 0px;
-    opacity: 0px;
+    left: 740px;
     font-family: Readex Pro;
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
     text-align: left;
     color: #5E5A5A;
-
+    display: flex;
 }
 
 .img1 {
+    display: flex;
     width: 281px;
     height: 270px;
-    margin-top: 150px;
-    margin-left: 200px;
+    margin-top: 160px;
+    margin-left: 235px;
 
 }
-
 .img2 {
+    display: flex;
     width: 281px;
     height: 270px;
     margin-top: -270px;
-    margin-left: 550px;
+    margin-left: 588px;
+    
 
 }
 
 .img3 {
+    display: flex;
     width: 281px;
     height: 270px;
     margin-top: -270px;
-    margin-left: 900px;
+    margin-left: 930px;
 
 }
+
+.group{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-left: 10%;
+}
+
+
 </style>
