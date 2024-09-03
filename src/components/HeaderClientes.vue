@@ -8,6 +8,8 @@
     <header>
         <img class="banner" src="../assets/header-teste.jpeg" alt="banner">
         <div class="degrade">
+            <div class="degradeDois"></div>
+
             <p class="somosavante">SOMOS A AVANTE</p>
         </div>
         <div>
@@ -15,20 +17,20 @@
             <p class="parceira">sua parceira para soluções em injetoras</p>
         </div>
         <div class="fotos">
-        <div class="img1">
-            <img src="../assets/img1.png" alt="img1">
-        </div>
-        <div class="img2">
-            <img src="../assets/img2.png" alt="img2">
-        </div>
-        <div class="img3">
-            <img src="../assets/img3.png" alt="img3">
-        </div>
+            <div class="img1">
+                <img src="../assets/img1.png" alt="img1">
+            </div>
+            <div class="img2">
+                <img src="../assets/img2.png" alt="img2">
+            </div>
+            <div class="img3">
+                <img src="../assets/img3.png" alt="img3">
+            </div>
 
-        <div>
-            <img class="group" src="../assets/Group 1.png" alt="group1">
+            <div>
+                <img class="group" src="../assets/Group 1.png" alt="group1">
+            </div>
         </div>
-    </div>
     </header>
 
 
@@ -55,10 +57,10 @@ header {
 .banner {
     display: flex;
     width: 100%;
-    height: 262px;
+    height: 335px;
     top: 78px;
     left: -0.5px;
-    opacity: 0px;
+
     margin: none;
     object-fit: cover;
 }
@@ -66,13 +68,30 @@ header {
 .degrade {
     display: flex;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     width: 100%;
-    height: 235%;
+    height: 335px;
     background: linear-gradient(rgba(70, 63, 63, 0.055),
             rgba(255, 255, 255, 0.8));
     pointer-events: none;
+
+
+
+
+}
+
+.degradeDois {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 335px;
+    left: -6px;
+    top: 78px;
+
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%);
+
+
 }
 
 .somosavante {
@@ -84,7 +103,7 @@ header {
     font-weight: 700;
     line-height: 80px;
     margin-left: 94px;
-    margin-top: 235px;
+    margin-top: 313px;
 }
 
 .flechas {
@@ -92,16 +111,16 @@ header {
     position: absolute;
     width: 40px;
     height: 23px;
-    left: 688px;
-    top: 317px;
+    left: 47%;
+    top: 377px;
 }
 
 .parceira {
     display: flex;
     position: absolute;
     height: 30px;
-    top: 287px;
-    left: 740px;
+    top: 350px;
+    left: 50%;
     font-family: Readex Pro;
     font-size: 24px;
     font-weight: 700;
@@ -116,16 +135,17 @@ header {
     width: 281px;
     height: 270px;
     margin-top: 160px;
-    margin-left: 235px;
+    margin-left: 23%;
 
 }
+
 .img2 {
     display: flex;
     width: 281px;
     height: 270px;
     margin-top: -270px;
-    margin-left: 588px;
-    
+    margin-left: 42%;
+
 
 }
 
@@ -134,16 +154,14 @@ header {
     width: 281px;
     height: 270px;
     margin-top: -270px;
-    margin-left: 930px;
+    margin-left: 60%;
 
 }
 
-.group{
+.group {
     display: flex;
     justify-content: center;
     margin-top: 140px;
-    margin-left: 10%;
+    margin-left: 19%;
 }
-
-
 </style>
