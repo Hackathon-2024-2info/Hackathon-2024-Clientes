@@ -1,9 +1,13 @@
 <script setup>
+import CarouselLog from './components/CarouselLog.vue';
 import ContatoPag from "./components/ContatoPag.vue";
 </script>
 
 <template>
-    <ContatoPag></ContatoPag>
+    <div>
+        <CarouselLog></CarouselLog>
+        <ContatoPag></ContatoPag>
+    </div>
 </template>
 
 <style scoped>
