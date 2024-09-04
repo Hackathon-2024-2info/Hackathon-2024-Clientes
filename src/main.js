@@ -9,5 +9,5 @@ import "@egjs/vue3-flicking/dist/flicking-inline.css";
 
 const app = createApp(App);
 
-app.component("Flicking", Flicking);
+app.component(Flicking);
 app.mount("#app");
