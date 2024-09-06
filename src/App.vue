@@ -3,6 +3,7 @@ import MenuClientes from './components/MenuClientes.vue'
 import ServicosComponente from './components/ServicosComponente.vue'
 import CarouselLog from './components/CarouselLog.vue';
 import ContatoPag from "./components/ContatoPag.vue";
+import "./assets/main.css"
 </script>
  
 
@@ -18,5 +19,7 @@ import ContatoPag from "./components/ContatoPag.vue";
 </template>
 
 <style scoped>
-
+ body{
+    margin: 0;
+ }
 </style>

@@ -33,9 +33,12 @@
     position: absolute;
     width: 1149px;
     height: 241px;
-    margin-left: 100px;
     background: #0F0541;
     border-radius: 50px;
+margin-left: 13%;
+
+margin-right: 13%;
+margin-top: 4%;
 }
 
 .solicitar {
@@ -88,8 +91,9 @@
 }
 
 .infos {
-    margin-left: -200px;
     padding: 350px;
+    margin-top: 4%;
+    margin-left:-8%;
 }
 
 .cartaimg {
