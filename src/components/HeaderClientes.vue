@@ -6,9 +6,11 @@
 
 
     <header>
-        <img class="banner" src="../assets/header-teste.jpeg" alt="banner">
+        <div class="degradeD"></div>
+        <img class="banner" src="../assets/headere.jpeg" alt="banner">
         <div class="degrade">
             <div class="degradeDois"></div>
+
 
             <p class="somosavante">SOMOS A AVANTE</p>
         </div>
@@ -25,12 +27,12 @@
             </div>
             <div class="img3">
                 <img src="../assets/img3.png" alt="img3">
-            </div>
+            </div>  
+        </div>
 
             <div>
                 <img class="group" src="../assets/Group 1.png" alt="group1">
             </div>
-        </div>
     </header>
 
 
@@ -55,113 +57,133 @@ header {
 }
 
 .banner {
-    display: flex;
-    width: 100%;
-    height: 335px;
-    top: 78px;
-    left: -0.5px;
-
-    margin: none;
-    object-fit: cover;
+   display: flex;
+   width: 100%;
+   height: 182%;
+   top: 78px;
+   left: -0.5px;
+   margin: none;
+   object-fit: cover;
 }
 
+.degradeD{
+position: absolute;
+width: 100%;
+height: 182%;
+left: -0.5%;
+top: 0px;
+
+background: rgba(217, 217, 217, 0.5);
+
+}
 .degrade {
-    display: flex;
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 100%;
-    height: 335px;
-    background: linear-gradient(rgba(70, 63, 63, 0.055),
-            rgba(255, 255, 255, 0.8));
-    pointer-events: none;
-
-
+   display: flex;
+   position: absolute;
+   top: 78px;
+   left: 0;
+   width: 100%;
+   height: 184%;
+   background: linear-gradient(rgba(70, 63, 63, 0.055),
+           rgba(255, 255, 255, 0.8));
+   pointer-events: none;
 
 
 }
 
 .degradeDois {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 335px;
-    left: -6px;
-    top: 78px;
-
-    background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%);
-
+   display: flex;
+   position: absolute;
+   width: 100%;
+   height: 36%;
+   left: 0;
+   top: 78px;
+   background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%);
 
 }
+
 
 .somosavante {
-    display: flex;
-    color: #0F0541;
-    height: 128px;
-    font-family: Readex Pro;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 80px;
-    margin-left: 94px;
-    margin-top: 313px;
+   display: flex;
+   color: #0F0541;
+   height: 128%;
+   font-family: Readex Pro;
+   font-size: 420%;
+   font-weight: 700;
+   line-height: 80px;
+   margin-left: 94px;
+   margin-top: 10%;
 }
+
 
 .flechas {
-    display: flex;
-    position: absolute;
-    width: 40px;
-    height: 23px;
-    left: 47%;
-    top: 377px;
+   display: flex;
+   position: absolute;
+   width: 40px;
+   height: 23px;
+   left: 47%;
+   top: 240%;
 }
+
 
 .parceira {
-    display: flex;
-    position: absolute;
-    height: 30px;
-    top: 350px;
-    left: 50%;
-    font-family: Readex Pro;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-    text-align: left;
-    color: #5E5A5A;
-    display: flex;
+   display: flex;
+   position: absolute;
+   height: 30px;
+   top: 220%;
+   left: 50%;
+   font-family: Readex Pro;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 30px;
+   text-align: left;
+   color: #5E5A5A;
+   display: flex;
 }
+
 
 .img1 {
-    display: flex;
-    width: 281px;
-    height: 270px;
-    margin-top: 160px;
-    margin-left: 23%;
-
+    position: absolute;
+width: 281px;
+height: 270px;
+left: 19%;
+top: 300%;
+   
 }
+
 
 .img2 {
-    display: flex;
-    width: 281px;
-    height: 270px;
-    margin-top: -270px;
-    margin-left: 42%;
-
+  
+position: absolute;
+width: 264px;
+height: 270px;
+left: 41%;
+top: 300%;
 
 }
+
+
 
 .img3 {
-    display: flex;
-    width: 281px;
-    height: 270px;
-    margin-top: -270px;
-    margin-left: 60%;
+    position: absolute;
+width: 270px;
+height: 270px;
+left: 62%;
+top: 300%;
 
 }
+.fotos{
+    display: flex;
+    width: 281px;
+   height: 270px;
+   margin-top: 10%;
+   margin-left: 23%;
 
+
+}
 .group {
     display: flex;
     justify-content: center;
-    margin-top: 140px;
-    margin-left: 19%;
+    margin-top: 10%;
+    margin-left: 12%;
 }
 </style>
