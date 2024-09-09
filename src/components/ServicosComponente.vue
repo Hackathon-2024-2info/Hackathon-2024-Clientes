@@ -48,6 +48,7 @@ padding-right: 30%;
 
   display: flex;
   justify-content: center;
+  margin-top: 2%;
 }
 hr {
   height: 12px;
@@ -55,14 +56,16 @@ hr {
   background: #d9d9d9;
   border: #d9d9d9;
   border-radius: 50px;
+  margin-left: 40%;
+  margin-top: 1%;
 }
 
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:4% ;
-  
     margin-top: 3%;
+    margin-bottom: -3%;
 }
 
 p{
