@@ -1,3 +1,4 @@
+
 <script setup>
 import MenuClientes from './components/MenuClientes.vue'
 import ServicosComponente from './components/ServicosComponente.vue'
@@ -25,3 +26,4 @@ import BtnWhatsapp from './components/BtnWhatsapp.vue';
     margin: 0;
  }
 </style>
+
