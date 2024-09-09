@@ -4,6 +4,7 @@ import ServicosComponente from './components/ServicosComponente.vue'
 import CarouselLog from './components/CarouselLog.vue';
 import ContatoPag from "./components/ContatoPag.vue";
 import "./assets/main.css"
+import BtnWhatsapp from './components/BtnWhatsapp.vue';
 </script>
  
 
@@ -16,6 +17,7 @@ import "./assets/main.css"
         <CarouselLog></CarouselLog>
         <ContatoPag></ContatoPag>
     </div>
+    <BtnWhatsapp></BtnWhatsapp>
 </template>
 
 <style scoped>

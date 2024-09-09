@@ -64,8 +64,8 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:4% ;
-  
     margin-top: 3%;
+    margin-bottom: -3%;
 }
 
 p{
