@@ -57,7 +57,8 @@
 
 
 header {
-   display: flex;
+   display: grid;
+   grid-template-columns: 3% 1fr 50%;
    position: absolute;
    width: 100%;
    height: 18%;
@@ -72,7 +73,7 @@ header {
 
 
 .banner {
-  display: flex;
+  display: grid;
   width: 100%;
   height: 182%;
   top: 59%;
@@ -88,6 +89,7 @@ width: 100%;
 height: 182%;
 left: -0.5%;
 top: 0px;
+padding: -440%;
 
 
 background: rgba(217, 217, 217, 0.5);
@@ -112,7 +114,7 @@ background: rgba(217, 217, 217, 0.5);
 
 
 .degradeDois {
-  display: flex;
+  display: grid;
   position: absolute;
   width: 100%;
   height: 36%;
@@ -213,7 +215,6 @@ top: 300%;
   height: 270px;
   margin-top: 10%;
   margin-left: 23%;
-
 
 
 
