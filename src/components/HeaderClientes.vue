@@ -12,8 +12,8 @@
   <header>
     <img class="banner" src="../assets/headere.jpeg" alt="banner">
 
-    <div>
-      <p class="somosavante">SOMOS A AVANTE</p>
+    <div class="somosavante">
+      <p >SOMOS A AVANTE</p>
     </div>
 
     <div class="degrade"></div>
@@ -44,9 +44,6 @@
     </div>
   </header>
 
-
-
-
 </template>
 
 
@@ -66,13 +63,12 @@ header {
   height: 18%;
   left: -0.034%;
   right: -0.034%;
-  top: 78px;
+  top: 72px;
   overflow: visible;
   display: inline-block;
   margin: none;
   margin-top: 0;
 }
-
 
 .banner {
 
@@ -81,7 +77,7 @@ header {
   height: 182%;
   top: 59%;
   left: -0.5px;
-  margin: none;
+  margin: 0px;
   object-fit: cover;
 }
 
@@ -94,12 +90,9 @@ header {
   left: 0;
   width: 100%;
   height: 184%;
-  background: linear-gradient(rgba(70, 63, 63, 0.055),
-      rgba(255, 255, 255, 0.8));
-  pointer-events: none;
-
-
-
+  background: linear-gradient
+      rgba(255, 255, 255, 0.1);
+  pointer-events: non
 
 }
 
@@ -108,10 +101,10 @@ header {
   display: grid;
   position: absolute;
   width: 100%;
-  height: 184%;
+  height: 186%;
   left: 0;
   top: 0%;
-  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%), rgba(217, 217, 217, 0.5);
+  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
 
 }
 
@@ -125,7 +118,7 @@ header {
   font-family: Readex Pro;
   font-size: 420%;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 60px;
   margin-left: 94px;
   margin-top: 0%;
 }
@@ -209,8 +202,12 @@ header {
 
 .group {
   display: flex;
-  justify-content: center;
-  margin-top: 7%;
+  position: absolute;
+  top: 600%;
   margin-left: 17%;
+  display: grid;
+  margin: 0 10% 0 10%;
+  
 }
+
 </style>
