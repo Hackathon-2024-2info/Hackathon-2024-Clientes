@@ -9,38 +9,40 @@
 
 
 
-   <header>
-       <div class="degradeD"></div>
-       <img class="banner" src="../assets/headere.jpeg" alt="banner">
-       <div class="degrade">
-           <div class="degradeDois"></div>
+  <header>
+    <img class="banner" src="../assets/headere.jpeg" alt="banner">
+
+    <div>
+      <p class="somosavante">SOMOS A AVANTE</p>
+    </div>
+
+    <div class="degrade"></div>
+
+    <div class="degradeDois"></div>
 
 
 
+    <div>
+      <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
+      <p class="parceira">sua parceira para soluções em injetoras</p>
+    </div>
 
-           <p class="somosavante">SOMOS A AVANTE</p>
-       </div>
-       <div>
-           <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
-           <p class="parceira">sua parceira para soluções em injetoras</p>
-       </div>
-       <div class="fotos">
-           <div class="img1">
-               <img src="../assets/img1.png" alt="img1">
-           </div>
-           <div class="img2">
-               <img src="../assets/img2.png" alt="img2">
-           </div>
-           <div class="img3">
-               <img src="../assets/img3.png" alt="img3">
-           </div> 
-       </div>
+    <div class="fotos">
+      <div class="img1">
+        <img src="../assets/img1.png" alt="img1">
+      </div>
+      <div class="img2">
+        <img src="../assets/img2.png" alt="img2">
+      </div>
+      <div class="img3">
+        <img src="../assets/img3.png" alt="img3">
+      </div>
+    </div>
 
-
-           <div>
-               <img class="group" src="../assets/Group 1.png" alt="group1">
-           </div>
-   </header>
+    <div>
+      <img class="group" src="../assets/Group 1.png" alt="group1">
+    </div>
+  </header>
 
 
 
@@ -57,23 +59,24 @@
 
 
 header {
-   display: grid;
-   grid-template-columns: 3% 1fr 50%;
-   position: absolute;
-   width: 100%;
-   height: 18%;
-   left: -0.034%;
-   right: -0.034%;
-   top: 78px;
-   overflow: visible;
-   display: inline-block;
-   margin: none;
-   margin-top: 0;
+  display: grid;
+  grid-template-columns: 3% 1fr 50%;
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  left: -0.034%;
+  right: -0.034%;
+  top: 78px;
+  overflow: visible;
+  display: inline-block;
+  margin: none;
+  margin-top: 0;
 }
 
 
 .banner {
-  display: grid;
+
+  display: flex;
   width: 100%;
   height: 182%;
   top: 59%;
@@ -83,28 +86,16 @@ header {
 }
 
 
-.degradeD{
-position: absolute;
-width: 100%;
-height: 182%;
-left: -0.5%;
-top: 0px;
-padding: -440%;
 
-
-background: rgba(217, 217, 217, 0.5);
-
-
-}
 .degrade {
   display: flex;
   position: absolute;
-  top: 78px;
+  top: 0%;
   left: 0;
   width: 100%;
   height: 184%;
   background: linear-gradient(rgba(70, 63, 63, 0.055),
-          rgba(255, 255, 255, 0.8));
+      rgba(255, 255, 255, 0.8));
   pointer-events: none;
 
 
@@ -117,11 +108,10 @@ background: rgba(217, 217, 217, 0.5);
   display: grid;
   position: absolute;
   width: 100%;
-  height: 36%;
+  height: 184%;
   left: 0;
-  top: 78px;
-  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%);
-
+  top: 0%;
+  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 20.3%, rgba(153, 153, 153, 0) 37.8%, #FFFFFF 100%), rgba(217, 217, 217, 0.5);
 
 }
 
@@ -137,10 +127,8 @@ background: rgba(217, 217, 217, 0.5);
   font-weight: 700;
   line-height: 80px;
   margin-left: 94px;
-  margin-top: 10%;
+  margin-top: 0%;
 }
-
-
 
 
 .flechas {
@@ -151,8 +139,6 @@ background: rgba(217, 217, 217, 0.5);
   left: 47%;
   top: 240%;
 }
-
-
 
 
 .parceira {
@@ -174,23 +160,23 @@ background: rgba(217, 217, 217, 0.5);
 
 
 .img1 {
-   position: absolute;
-width: 281px;
-height: 270px;
-left: 19%;
-top: 300%;
- 
+  position: absolute;
+  width: 281px;
+  height: 270px;
+  left: 19%;
+  top: 300%;
+
 }
 
 
 
 
 .img2 {
- position: absolute;
-width: 264px;
-height: 270px;
-left: 41%;
-top: 300%;
+  position: absolute;
+  width: 264px;
+  height: 270px;
+  left: 41%;
+  top: 300%;
 
 
 }
@@ -201,17 +187,18 @@ top: 300%;
 
 
 .img3 {
-   position: absolute;
-width: 270px;
-height: 270px;
-left: 62%;
-top: 300%;
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  left: 62%;
+  top: 300%;
 
 
 }
-.fotos{
-   display: flex;
-   width: 281px;
+
+.fotos {
+  display: flex;
+  width: 281px;
   height: 270px;
   margin-top: 10%;
   margin-left: 23%;
@@ -219,19 +206,11 @@ top: 300%;
 
 
 }
+
 .group {
-   display: flex;
-   justify-content: center;
-   margin-top: 10%;
-   margin-left: 12%;
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  margin-left: 17%;
 }
-
-
 </style>
-
-
-
-
-
-
-
