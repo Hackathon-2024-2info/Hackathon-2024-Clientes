@@ -39,7 +39,11 @@
     </div>
 
     <div>
-      <img class="group" src="../assets/Group 1.png" alt="group1">
+      <img class="group" src="../assets/image (1).png" alt="group1">
+        <div class="camada-azul"></div>
+      <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
+        Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
+        injetoras irão operar em sua capacidade máxima.</p>
     </div>
   </div>
 
@@ -50,6 +54,7 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 header {
@@ -144,5 +149,34 @@ header {
   display: flex;
   margin-top: 9%;
   margin-left: 12%;
+  position: relative;
+  display: inline-block;
+  background-color: rgba(3, 3, 63, 0.5); /* Fundo azul com 50% de opacidade */
+}
+/* .camada-azul{
+  display: flex;
+  margin-top: 9%;
+  margin-left: 12%;
+  
+  display: inline-block;
+} */
+
+.text-group {
+  position: absolute;
+  width: 880.17px;
+  height: 112.57px;
+  left: 279.87px;
+  top: 889px;
+
+  font-family: 'Kantumruy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+
 }
 </style>
