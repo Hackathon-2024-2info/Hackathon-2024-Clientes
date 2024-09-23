@@ -13,7 +13,7 @@
     <img class="banner" src="../assets/headere.jpeg" alt="banner">
 
     <div class="somosavante">
-      <p >SOMOS A AVANTE</p>
+      <p>SOMOS A AVANTE</p>
     </div>
 
     <div class="degrade"></div>
@@ -71,7 +71,6 @@ header {
 }
 
 .banner {
-
   display: flex;
   width: 100%;
   height: 182%;
@@ -80,7 +79,6 @@ header {
   margin: 0px;
   object-fit: cover;
 }
-
 
 
 .degrade {
@@ -203,9 +201,8 @@ header {
 .group {
   display: flex;
   position: absolute;
-  top: 600%;
+  top: 590%;
   margin-left: 17%;
-  display: grid;
   margin: 0 10% 0 10%;
   
 }
