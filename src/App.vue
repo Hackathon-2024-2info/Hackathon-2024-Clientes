@@ -3,28 +3,35 @@ import MenuClientes from './components/MenuClientes.vue'
 import ServicosComponente from './components/ServicosComponente.vue'
 import CarouselLog from './components/CarouselLog.vue';
 import ContatoPag from "./components/ContatoPag.vue";
+import whatsGwApi from './components/whatsGwApi.vue'
 import "./assets/main.css"
-import BtnWhatsapp from './components/BtnWhatsapp.vue';
-import HeaderClientes from './components/HeaderClientes.vue'
+import Header from "./components/HeaderClientes.vue";
 </script>
  
 
 
 
 <template>
+    <div class="header">
 <MenuClientes></MenuClientes>
-<HeaderClientes></HeaderClientes>
+<Header></Header>
+    </div>
+
 <ServicosComponente></ServicosComponente>
     <div>
         <CarouselLog></CarouselLog>
         <ContatoPag></ContatoPag>
     </div>
-    <BtnWhatsapp></BtnWhatsapp>
+    <whatsGwApi></whatsGwApi>
 </template>
 
 <style scoped>
  body{
     margin: 0;
  }
-</style>
+.header{
+    margin-bottom: 76%;
+}
 
+ 
+</style>
