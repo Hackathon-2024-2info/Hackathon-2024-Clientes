@@ -39,8 +39,7 @@
     </div>
 
     <div>
-      <img class="group" src="../assets/image (1).png" alt="group1">
-        <div class="camada-azul"></div>
+      <img class="group" src="../assets/Group 1.png" alt="group1">
       <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
         Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
         injetoras irão operar em sua capacidade máxima.</p>
@@ -151,7 +150,6 @@ header {
   margin-left: 12%;
   position: relative;
   display: inline-block;
-  background-color: rgba(3, 3, 63, 0.5); /* Fundo azul com 50% de opacidade */
 }
 /* .camada-azul{
   display: flex;
@@ -163,20 +161,16 @@ header {
 
 .text-group {
   position: absolute;
-  width: 880.17px;
-  height: 112.57px;
-  left: 279.87px;
-  top: 889px;
-
   font-family: 'Kantumruy';
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 33px;
   text-align: center;
-
   color: #FFFFFF;
-
+  width: 65%;
+  left: 22%;
+  top: 137%;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 170%;
 
 }
 </style>
