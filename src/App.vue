@@ -24,8 +24,7 @@ import Header from "./components/HeaderClientes.vue";
         <ContatoPag></ContatoPag>
     </div>
      <footer>
-    <RodapePag></RodapePag>
-  </footer>
+    <RodapePag></RodapePag> </footer>
     <whatsGwApi></whatsGwApi>
 </template>
 
