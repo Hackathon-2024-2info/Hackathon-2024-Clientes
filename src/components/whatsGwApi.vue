@@ -6,7 +6,7 @@
 <div class="zapbutton">
     
 <a href="https://wa.me/+5547996105239" target="_blank">
-    <img src="./assets/zap.png" width="50" alt="Fale com nois" title="Fale com nois">
+    <img src="../assets/zap.png" width="50" alt="Fale com nois" title="Fale com nois">
 </a>
 </div>
 

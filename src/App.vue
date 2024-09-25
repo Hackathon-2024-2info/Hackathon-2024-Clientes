@@ -30,7 +30,7 @@ import Header from "./components/HeaderClientes.vue";
     margin: 0;
  }
 .header{
-    margin-bottom: 76%;
+    margin-bottom: 10%;
 }
 
  
