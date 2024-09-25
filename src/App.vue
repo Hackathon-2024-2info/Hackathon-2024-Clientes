@@ -1,4 +1,5 @@
 <script setup>
+import RodapePag from './components/RodapePag.vue';
 import MenuClientes from './components/MenuClientes.vue'
 import ServicosComponente from './components/ServicosComponente.vue'
 import CarouselLog from './components/CarouselLog.vue';
@@ -22,6 +23,9 @@ import Header from "./components/HeaderClientes.vue";
         <CarouselLog></CarouselLog>
         <ContatoPag></ContatoPag>
     </div>
+     <footer>
+    <RodapePag />
+  </footer>
     <whatsGwApi></whatsGwApi>
 </template>
 
