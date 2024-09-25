@@ -22,7 +22,10 @@ import Header from "./components/HeaderClientes.vue";
         <CarouselLog></CarouselLog>
         <ContatoPag></ContatoPag>
     </div>
-    <whatsGwApi></whatsGwApi>
+     <footer>
+    <RodapePag></RodapePag>
+     <whatsGwApi></whatsGwApi>
+  </footer>
 </template>
 
 <style scoped>
