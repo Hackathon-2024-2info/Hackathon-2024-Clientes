@@ -3,24 +3,33 @@
 </script>
 
 <template>
-    <div class="container">
-        <p class="solicitar"> Quer solicitar um orçamento?</p>
-        <p class="duvidas">ou tirar dúvidas</p>
-        <img class="flecha" src="../assets/flechinha.png" alt="flecha">
-        <p class="entrecontato">entre em contato conosco!</p>
-    </div>
-    <div class="infos">
-        <img class="cartaimg" src="../assets/carta.png" alt="cartinha">
-        <p class="cartatext"> E-mail</p>
-        <p class="duv">Tem alguma dúvida?</p>
-        <p class="telreal">(47) 98915-9517</p>
+    <main>
 
-        <img class="telefoneimg" src="../assets/telefone.png" alt="telefone">
-        <p class="telefonetext"> Telefone</p>
-        <p class="contatar">Você pode nos contatar a qualquer hora. </p>
-        <p class="emailreal">xxxx@gmail.com</p>
-    </div>
+        <div class="espaçamento">
+            <div></div>
+            <div class="container">
+                <p class="solicitar"> Quer solicitar um orçamento?</p>
+                <p class="duvidas">ou tirar dúvidas</p>
+                <img class="flecha" src="../assets/flechinha.png" alt="flecha">
+                <p class="entrecontato">entre em contato conosco!</p>
+            </div>
 
+
+            <div class="infos">
+                <img class="cartaimg" src="../assets/carta.png" alt="cartinha">
+                <p class="cartatext"> E-mail</p>
+                <p class="duv">Tem alguma dúvida?</p>
+                <p class="telreal">(47) 98915-9517</p>
+
+                <img class="telefoneimg" src="../assets/telefone.png" alt="telefone">
+                <p class="telefonetext"> Telefone</p>
+                <p class="contatar">Você pode nos contatar a qualquer hora. </p>
+                <p class="emailreal">xxxx@gmail.com</p>
+            </div>
+            <div></div>
+        </div>
+
+    </main>
 
 
 </template>
@@ -28,17 +37,27 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .espaçamento {
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
+} */
+
 .container {
-    display: flex;
-    position: absolute;
+
+    display: grid;
+    grid-template-columns: 5% 1fr 5%;
     width: 1149px;
     height: 241px;
     background: #0F0541;
     border-radius: 50px;
-margin-left: 13%;
-
-margin-right: 13%;
-margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 13%;
+    margin-top: 4%;
 }
 
 .solicitar {
@@ -91,9 +110,9 @@ margin-top: 4%;
 }
 
 .infos {
-    padding: 350px;
+    padding-left: 27%;
     margin-top: 4%;
-    margin-left:-8%;
+    margin-left: -8%;
 }
 
 .cartaimg {
