@@ -6,6 +6,7 @@ import ContatoPag from "./components/ContatoPag.vue";
 import whatsGwApi from './components/whatsGwApi.vue'
 import "./assets/main.css"
 import Header from "./components/HeaderClientes.vue";
+import RodapePag from './components/RodapePag.vue';
 </script>
  
 
@@ -24,8 +25,8 @@ import Header from "./components/HeaderClientes.vue";
     </div>
      <footer>
     <RodapePag></RodapePag>
-    <whatsGwApi></whatsGwApi>
   </footer>
+  <whatsGwApi></whatsGwApi>
 </template>
 
 <style scoped>
