@@ -11,10 +11,10 @@
 
   <header>
 
-    <img class="banner" src="../assets/headere.jpeg" alt="banner">
+    <img class="banner" src="../assets/seraheader.png" alt="banner">
 
-    <div class="degrade">
-    </div>
+    <!-- <div class="degrade">
+    </div> -->
   </header>
   <div>
     <div class="somosavante">
@@ -65,18 +65,14 @@ header {
   width: 100%;
 }
 
-
-
-
-
-.degrade {
+/* .degrade {
   position: absolute;
   width: 100%;
-  height: 27%;
+  height:25%;
   left: 0%;
   top: 9%;
   background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
-}
+} */
 
 .somosavante {
   display: flex;
@@ -88,7 +84,6 @@ header {
   margin-left: 94px;
 }
 
-
 .flechas {
   display: flex;
   width: 40px;
@@ -96,7 +91,6 @@ header {
   margin-left: 50%;
   top: 240%;
 }
-
 
 .parceira {
   display: flex;
@@ -112,15 +106,12 @@ header {
   display: flex;
 }
 
-
 .img1 {
   width: 281px;
   height: 270px;
   margin-left: 23%;
   top: 300%;
-
 }
-
 
 .img2 {
   width: 264px;
@@ -128,7 +119,6 @@ header {
   margin-left: 30%;
   top: 300%;
 }
-
 
 .img3 {
   width: 270px;
@@ -151,15 +141,10 @@ header {
   position: relative;
   display: inline-block;
 }
-/* .camada-azul{
-  display: flex;
-  margin-top: 9%;
-  margin-left: 12%;
-  
-  display: inline-block;
-} */
 
 .text-group {
+  display: flex;
+  justify-content: center;
   position: absolute;
   font-family: 'Kantumruy';
   font-style: normal;
@@ -167,7 +152,7 @@ header {
   color: #FFFFFF;
   width: 65%;
   left: 22%;
-  top: 137%;
+  top: 145%;
   font-weight: 800;
   font-size: 18px;
   line-height: 170%;
