@@ -1,5 +1,4 @@
 <script setup>
-import RodapePag from './components/RodapePag.vue';
 import MenuClientes from './components/MenuClientes.vue'
 import ServicosComponente from './components/ServicosComponente.vue'
 import CarouselLog from './components/CarouselLog.vue';
@@ -25,8 +24,8 @@ import Header from "./components/HeaderClientes.vue";
     </div>
      <footer>
     <RodapePag></RodapePag>
+     <whatsGwApi></whatsGwApi>
   </footer>
-    <whatsGwApi></whatsGwApi>
 </template>
 
 <style scoped>
