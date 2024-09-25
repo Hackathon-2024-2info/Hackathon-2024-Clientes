@@ -11,45 +11,70 @@ const companyName = ref('Hackathongas');
     <div class="contact-info">
       <div class="contact-section">
         <p class="contatot">Contato</p>
-        <p class="contatop">(47) 997012881</p>
-        <p class="contatop">(47) 996780578</p>
+        <div class="phone-info">
+          <img class="telefone" src="@/assets/telefonerodape.png" alt="Ícone de telefone">
+          <div class="phone-numbers">
+            <p class="contatop">(47) 997012881</p>
+            <p class="contatop">(47) 996780578</p>
+          </div>
+        </div>
         <p class="contatot">E-mail</p>
-        <p class="contatop">nicoleabrand13@gmail.com</p>
-        <p class="contatop">nicoleabrand@gmail.com</p>
+        <div class="email-info">
+          <img class="email" src="@/assets/emailrodape.png" alt="Ícone de e-mail">
+          <div class="email-numbers">
+            <p class="contatop">nicoleabrand13@gmail.com</p>
+            <p class="contatop">nicoleabrand@gmail.com</p>
+          </div>
+        </div>
       </div>
+      
       <div class="enderecoinfo">
-        <p class="enderecot">Endereco Comercial</p>
-        <p class="enderecop"> Rua dos Técnicos Agrícolas, 141,</p>
-        <p class="enderecop"> Porto Grande - Araquari</p>
-        <p class="enderecot">Endereco Industrial</p>
-        <p class="enderecop"> Rua dos Técnicos Agrícolas, 141,</p>
-        <p class="enderecop"> Porto Grande - Araquari</p>
-    </div>
-    <div class="horarioinfo">
-        <p class="horariot"> Horário de Funcionamento</p>
-        <p class="horariop"> Segunda a Sexta - </p>
-        <p class="horariop">  das 8h às 19h</p>
+        <p class="enderecot">Endereço Comercial</p>
+        <div class="location-info">
+          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <div class="location-address">
+            <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
+            <p class="enderecop">Porto Grande - Araquari</p>
+          </div>
+        </div>
+        <p class="enderecot">Endereço Industrial</p>
+        <div class="location-info">
+          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <div class="location-address">
+            <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
+            <p class="enderecop">Porto Grande - Araquari</p>
+          </div>
+        </div>
+      </div>
 
+      <div class="horarioinfo">
+        <p class="horariot">Horário de Funcionamento</p>
+        <div class="horario-info">
+          <img class="relogio" src="@/assets/stopwatch-04.png" alt="Ícone de horário">
+          <div class="horario-hours">
+            <p class="horariop">Segunda a Sexta -</p>
+            <p class="horariop">das 8h às 19h</p>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-    <img src="../assets/avante.jpeg" alt="">
+
+    <img class="logo" src="@/assets/logo.jpeg" alt="Logo">
     <p class="copyright">
       &copy; {{ currentYear }} {{ companyName }}. Todos os direitos reservados.
     </p>
   </footer>
 </template>
-
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
 .footer {
-    font-size: px;
   background-color: rgba(15, 5, 65, 1);
   color: white;
   font-family: "Kantumruy Pro", sans-serif;
   padding: 1rem;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -66,11 +91,57 @@ const companyName = ref('Hackathongas');
   margin: 0 1rem;
 }
 
+.phone-info, .email-info, .location-info, .horario-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.telefone, .endereco {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.phone-numbers p, .email-numbers p, .location-address p, .horario-hours p {
+  margin: 0;
+}
+
 .contatot, .enderecot, .horariot {
   font-weight: bold;
 }
 
 .contatop, .emailp {
   word-break: break-word;
+}
+
+.copyright {
+  margin-top: 1rem;
+}
+
+.logo {
+  width: 150px; 
+  height: auto; 
+  margin-left: 1000px; 
+}
+ .endereco {
+  width: 15px;
+  height: 20px; 
+  margin-right: 6px; 
+}
+.telefone {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 6px; 
+}
+.email {
+    width: 17px;
+  height: 15px; 
+  margin-right: 6px; 
+}
+.relogio {
+    width: 20px;
+  height: 20px; 
+  margin-right: 6px;  
 }
 </style>
