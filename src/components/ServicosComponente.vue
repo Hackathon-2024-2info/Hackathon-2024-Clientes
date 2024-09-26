@@ -2,8 +2,9 @@
 
 <template>
   <h1>MONITORE SUAS MÁQUINAS E RESOLVA SEUS PROBLEMAS</h1>
-  <hr />
-  <main>
+  <hr /><main>
+    <div></div>
+  <section>
 <div class="box">
     <img src="../assets/Group 2.png" alt="">
     <h3>SISTEMA HIDRÁULICO</h3>
@@ -29,7 +30,10 @@
     <p>Nossa equipe faz visitas regulares e fornece suporte rápido e eficiente em caso de emergências e dúvidas. Você e sua empresa mantém a produção sem interrupções indesejadas.</p>
 </div>
 
+  </section>   
+    <div></div>
   </main>
+ 
 </template>
 
 <style scoped>
@@ -48,6 +52,7 @@ padding-right: 30%;
 
   display: flex;
   justify-content: center;
+  margin-top: 9%;
 }
 hr {
   height: 12px;
@@ -55,14 +60,16 @@ hr {
   background: #d9d9d9;
   border: #d9d9d9;
   border-radius: 50px;
+  margin-left: 40%;
+  margin-top: 1%;
 }
 
-main{
+section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left:4% ;
-  
     margin-top: 3%;
+    margin-bottom: -3%;
 }
 
 p{
@@ -98,5 +105,10 @@ img{
 }
 body{
     margin: 0;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 3% 1fr 3%;
 }
 </style>
