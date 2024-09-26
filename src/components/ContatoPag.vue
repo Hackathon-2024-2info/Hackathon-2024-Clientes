@@ -13,21 +13,27 @@
                 <img class="flecha" src="../assets/flechinha.png" alt="flecha">
                 <p class="entrecontato">entre em contato conosco!</p>
             </div>
-
-
-            <div class="infos">
-                <img class="cartaimg" src="../assets/carta.png" alt="cartinha">
-                <p class="cartatext"> E-mail</p>
-                <p class="duv">Tem alguma dúvida?</p>
-                <p class="telreal">(47) 98915-9517</p>
-
-                <img class="telefoneimg" src="../assets/telefone.png" alt="telefone">
-                <p class="telefonetext"> Telefone</p>
-                <p class="contatar">Você pode nos contatar a qualquer hora. </p>
-                <p class="emailreal">xxxx@gmail.com</p>
-            </div>
             <div></div>
         </div>
+        <div class="infos">
+            <div class="espaçamento-dois">
+                <div></div>
+                <div class="item-um">
+                    <img class="cartaimg" src="../assets/carta.png" alt="cartinha">
+                    <p class="cartatext"> E-mail</p>
+                    <p class="duv">Tem alguma dúvida?</p>
+                    <p class="telreal">(47) 98915-9517</p>
+                </div>
+                <div class="item-dois">
+                    <img class="telefoneimg" src="../assets/telefone.png" alt="telefone">
+                    <p class="telefonetext"> Telefone</p>
+                    <p class="contatar">Você pode nos contatar a qualquer hora. </p>
+                    <p class="emailreal">xxxx@gmail.com</p>
+                </div>
+                <div></div>
+            </div>
+        </div>
+
 
     </main>
 
@@ -37,27 +43,24 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-main {
+
+.espaçamento {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
 }
 
-/* .espaçamento {
+.espaçamento-dois {
     display: grid;
-    grid-template-columns: 5% 1fr 5%;
-} */
+    place-items: center;
+}
 
 .container {
-
-    display: grid;
-    grid-template-columns: 5% 1fr 5%;
+    position: absolute;
     width: 1149px;
     height: 241px;
     background: #0F0541;
     border-radius: 50px;
-    margin-left: 9%;
-    margin-right: 13%;
-    margin-top: 4%;
+    margin-top: 25%;
 }
 
 .solicitar {
@@ -110,20 +113,19 @@ main {
 }
 
 .infos {
-    padding-left: 27%;
-    margin-top: 4%;
-    margin-left: -8%;
+    padding-top:27%;
+    margin-right: 60%;
 }
 
 .cartaimg {
-    display: flex;
+    display: block;
     position: absolute;
     width: 40px;
     height: 37.5px;
 }
 
 .telefoneimg {
-    display: flex;
+    display: block;
     position: absolute;
     width: 40px;
     height: 37.5px;
