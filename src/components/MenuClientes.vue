@@ -4,10 +4,10 @@
   <div id="div1">
     <div id="nav">
       <nav>
-        <p id="home">Home</p>
-        <p id="sobrenos">Sobre nós</p>
-        <p id="servicos">Serviços</p>
-        <p id="contato">Contato</p>
+        <p><a href="#home">Home</a></p>
+        <p><a href="#sobre">Sobre nós</a></p>
+        <p><a href="#servicos">Serviços</a></p>
+        <p><a href="#contato">Contato</a></p>
       </nav>
     </div>
     <div id="img">
@@ -16,9 +16,10 @@
   </div>
 </template>
 
+
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-nav {
+nav  {
   margin: 0;
   background: #0f0541;
   height: 72px;
@@ -26,7 +27,7 @@ nav {
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 1fr;
 }
-p {
+p, a{
   font-family: 'Jost', sans-serif;
   font-optical-sizing: auto;
   font-size: 20px;
@@ -34,7 +35,10 @@ p {
   color: white;
   margin: 0;
   text-align: center;
-  margin-top: 8%;
+  margin-top: 10%;
+  background: #0f0541;
+  text-decoration: none;
+
 }
 #div1{
     display: flex;

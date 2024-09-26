@@ -52,6 +52,8 @@
 .espaçamento-dois {
     display: grid;
     place-items: center;
+    margin-bottom: 70%;
+
 }
 
 .container {

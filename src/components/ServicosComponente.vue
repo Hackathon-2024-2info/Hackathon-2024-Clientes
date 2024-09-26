@@ -52,7 +52,7 @@ padding-right: 30%;
 
   display: flex;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 9%;
 }
 hr {
   height: 12px;
