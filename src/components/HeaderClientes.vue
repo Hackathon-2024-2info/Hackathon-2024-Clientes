@@ -10,7 +10,6 @@
 
 
   <header>
-
     <img class="banner" src="../assets/seraheader.png" alt="banner">
 
     <div class="degrade">
@@ -54,22 +53,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
-
 header {
+  display: flex;
+  position: relative;
   width: 100%;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .banner {
+  display: block;
   width: 100%;
 }
 
 .degrade {
   position: absolute;
-  width: 100%;
-  height:25%;
-  left: 0%;
-  top: 9%;
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      height: 100%; 
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      text-align: center;
   background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
 }
 
@@ -129,27 +134,29 @@ header {
   margin-left: 12%;
 }
 
+.teste {
+  display: grid;
+  place-items: center;
+      position: relative; /* Permite o posicionamento absoluto dentro do contêiner */
+
+    }
+
 .group {
-  display: flex;
   margin-top: 9%;
-  margin-left: 12%;
-  position: relative;
+  object-fit: cover;
 }
 
 .text-group {
-  display: flex;
-  justify-content: center;
   position: absolute;
   font-family: 'Kantumruy Pro';
   font-style: normal;
-  text-align: center;
   color: #FFFFFF;
-  width: 65%;
-  left: 22%;
-  top: 145%;
+  text-align: center;
+  top: 55%;
+  left: 10%;
   font-weight: 700;
   font-size: 18px;
   line-height: 170%;
-  margin-bottom: 0px;
+  width: 80%;
 }
 </style>
