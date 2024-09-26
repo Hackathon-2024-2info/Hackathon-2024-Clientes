@@ -7,6 +7,7 @@ import whatsGwApi from './components/whatsGwApi.vue'
 import "./assets/main.css"
 import Header from "./components/HeaderClientes.vue";
 import RodapePag from './components/RodapePag.vue';
+import Box from './components/BoxServicos.vue';
 </script>
  
 
@@ -20,13 +21,14 @@ import RodapePag from './components/RodapePag.vue';
 
 <ServicosComponente></ServicosComponente>
     <div>
-        <CarouselLog></CarouselLog>
+        <CarouselLog></CarouselLog> <Box></Box>
         <ContatoPag></ContatoPag>
     </div>
      <footer>
     <RodapePag></RodapePag>
   </footer>
   <whatsGwApi></whatsGwApi>
+   
 </template>
 
 <style scoped>

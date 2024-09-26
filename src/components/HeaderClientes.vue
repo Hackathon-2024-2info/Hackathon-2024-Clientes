@@ -23,7 +23,7 @@
 
     <div>
       <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
-      <p class="parceira">sua parceira para soluções em injetoras</p>
+      <p class="parceira">sua parceira para soluções em injetoras!</p>
     </div>
 
     <div class="fotos">
