@@ -6,6 +6,7 @@
     <h1>
         NOSSAS SOLUÇÕES A SUA DISPOSIÇÃO
     </h1>
+    
     <hr>
     <main>
         <div>
@@ -75,6 +76,8 @@ h1 {
   justify-content: center;
   margin-top: 6%;
 }
+
+
 hr {
   height: 12px;
   width: 338.01px;
@@ -102,5 +105,23 @@ hr {
 p{
     margin: 7%;
     padding-bottom: 7%;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .box {
+        margin: 5%; 
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        grid-template-columns: 1fr; 
+    }
+    .box {
+        margin: 10%; 
+    }
 }
 </style>

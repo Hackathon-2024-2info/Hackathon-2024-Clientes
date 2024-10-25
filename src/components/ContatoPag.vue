@@ -33,8 +33,6 @@
                 <div></div>
             </div>
         </div>
-
-
     </main>
 
 
@@ -208,4 +206,34 @@
     color: #000000;
     margin-top: 200px;
 }
+
+@media (max-width: 768px) {
+    .solicitar {
+        font-size: 20px; 
+    }
+
+    .duvidas, .entrecontato {
+        font-size: 16px;
+    }
+
+    .container {
+        margin-top: 15%;
+        padding: 10px; 
+    }
+
+    .item-um, .item-dois {
+        width: 100%; 
+    }
+
+    .cartaimg, .telefoneimg {
+        width: 30px;
+    }
+
+    .infos {
+        padding-top: 10%; 
+    }
+}
+
+
+
 </style>

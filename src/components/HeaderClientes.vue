@@ -5,10 +5,6 @@
 
 
 <template>
-
-
-
-
   <header>
     <img class="banner" src="../assets/seraheader.png" alt="banner">
 
@@ -57,7 +53,6 @@ header {
   display: flex;
   position: relative;
   width: 100%;
-  /* display: inline-block; */
 }
 
 .banner {
@@ -75,7 +70,7 @@ header {
       justify-content: center; 
       align-items: center;
       text-align: center;
-  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
+      background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
 }
 
 .somosavante {
@@ -137,7 +132,7 @@ header {
 .teste {
   display: grid;
   place-items: center;
-      position: relative; /* Permite o posicionamento absoluto dentro do contêiner */
+      position: relative; 
 
     }
 
@@ -159,4 +154,38 @@ header {
   line-height: 170%;
   width: 80%;
 }
+
+@media (max-width: 768px) {
+  .somosavante {
+    font-size: 300%;
+  }
+
+  .parceira {
+    font-size: 20px;
+  }
+
+  .fotos {
+    justify-content: center; 
+  }
+
+  .img1, .img2, .img3 {
+    max-width: 100%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .somosavante {
+    font-size: 200%;
+  }
+
+  .text-group {
+    font-size: 16px; 
+  }
+
+  .flechas {
+    width: 30px; 
+    height: 20px;
+  }
+}
+
 </style>

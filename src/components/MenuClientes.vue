@@ -85,7 +85,6 @@ img {
   font-weight: 400;
   font-size: 24px;
   line-height: 35px;
-
   color: #ffffff;
 }
 
@@ -121,4 +120,43 @@ body {
 
   color: #ffffff;
 }
+
+
+
+@media (max-width: 768px) {
+  nav {
+    grid-template-columns: repeat(2, 1fr); 
+    height: auto;
+  }
+
+  p, a {
+    font-size: 18px; 
+    padding: 15px 0;
+  }
+
+  #img {
+    justify-content: center; 
+    padding: 10px;
+  }
+
+  img {
+    width: 100px; 
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    grid-template-columns: 1fr; 
+  }
+
+  p, a {
+    font-size: 16px; 
+    padding: 10px 0; 
+  }
+  
+  img {
+    width: 80px; 
+  }
+}
+
 </style>

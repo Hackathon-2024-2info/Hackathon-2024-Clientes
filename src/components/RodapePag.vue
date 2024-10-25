@@ -3,8 +3,8 @@ import { ref } from 'vue';
 
 const currentYear = ref(new Date().getFullYear());
 const companyName = ref('Hackathongas');
-
 </script>
+
 
 <template>
   <footer class="footer">
@@ -144,4 +144,36 @@ const companyName = ref('Hackathongas');
   height: 20px; 
   margin-right: 6px;  
 }
+
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .contact-section, .email-section {
+    margin: 0.5rem 0;
+    width: 100%; 
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    padding: 0 1rem;
+  }
+
+  .telefone, .email, .endereco, .relogio {
+    width: 20px; 
+    height: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
 </style>
