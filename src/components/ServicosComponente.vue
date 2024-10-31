@@ -120,7 +120,7 @@ main {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   h1 {
     font-size: 28px;
     padding: 0 5%;

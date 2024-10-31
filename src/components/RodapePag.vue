@@ -31,7 +31,7 @@ const companyName = ref('Hackathongas');
       <div class="enderecoinfo">
         <p class="enderecot">Endereço Comercial</p>
         <div class="location-info">
-          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <img class="endereco" src="@/assets/Icon.png" alt="Ícone de endereço">
           <div class="location-address">
             <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
             <p class="enderecop">Porto Grande - Araquari</p>
@@ -39,7 +39,7 @@ const companyName = ref('Hackathongas');
         </div>
         <p class="enderecot">Endereço Industrial</p>
         <div class="location-info">
-          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <img class="endereco" src="@/assets/Icon.png" alt="Ícone de endereço">
           <div class="location-address">
             <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
             <p class="enderecop">Porto Grande - Araquari</p>
@@ -69,6 +69,7 @@ const companyName = ref('Hackathongas');
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
 .footer {
+  margin: -2%;
   background-color: rgba(15, 5, 65, 1);
   color: white;
   font-family: "Kantumruy Pro", sans-serif;
@@ -145,7 +146,7 @@ const companyName = ref('Hackathongas');
   margin-right: 6px;  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .contact-info {
     flex-direction: column; 
     align-items: center; 

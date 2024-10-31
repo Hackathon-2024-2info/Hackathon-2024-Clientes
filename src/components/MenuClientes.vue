@@ -20,7 +20,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 nav  {
-  margin: 0;
+  margin: 0%;
   background: #0f0541;
   height: 72px;
   padding: 0;
@@ -123,15 +123,17 @@ body {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   nav {
-    grid-template-columns: repeat(2, 1fr); 
-    height: auto;
+    margin: -3%;
+    width: 1177px;
+    height: 200px;
   }
 
   p, a {
+
     font-size: 18px; 
-    padding: 15px 0;
+    padding: 1000px;
   }
 
   #img {

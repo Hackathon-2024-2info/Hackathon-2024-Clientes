@@ -207,7 +207,7 @@
     margin-top: 200px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .solicitar {
         font-size: 20px; 
     }

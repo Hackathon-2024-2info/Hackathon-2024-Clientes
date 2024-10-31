@@ -107,7 +107,7 @@ p{
     padding-bottom: 7%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     main {
         grid-template-columns: repeat(2, 1fr); 
     }
