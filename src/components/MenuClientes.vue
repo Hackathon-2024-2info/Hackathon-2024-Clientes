@@ -126,27 +126,81 @@ body {
 @media (max-width: 480px) {
   nav {
     margin: -3%;
-    width: 1177px;
-    height: 200px;
+    width: 70px;
+    height: 100px;
   }
-
   p, a {
-    display: none;
-    font-size: 18px; 
-    padding: 1000px;
+    font-size: 15px; 
+    padding: 30px;
   }
 
-  #img {
-    display: block;
-    margin: 0 auto;
+  #div1{
+    display: flex;
+    margin: -3%;
 }
+
+#nav{
+  margin: -3%;
+  width: 35px; float: left
+}
+
+
+#sobrenos {
+  left: 2.97%;
+  top: 29.76%;
+  bottom: 47.32%;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+#contato {
+  left: 54.72%;
  
+  top: 29.76%;
+  bottom: 46.96%;
+
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+#servicos {
+  left: 38.75%;
+  top: 29.76%;
+  bottom: 35.32%;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+
+#home {
+  left: 6.67%;
+  right: 86.6%;
+  top: 29.66%;
+  bottom: 47.06%;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #ffffff;
+}
 
   img {
-    display: block;
-    margin: 0 auto;
-    width: 280px; 
-    padding: 50px;
+    margin-left: 70%;
+    width: 90px; 
+    padding: 20px;
   }
 }
 

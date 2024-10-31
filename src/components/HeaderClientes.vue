@@ -14,31 +14,32 @@
   <div>
     <div class="somosavante">
       <p>SOMOS A AVANTE</p>
-    </div> </div>
-
-    <div>
-      <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
-      <p class="parceira">sua parceira para soluções em injetoras!</p>
     </div>
+  </div>
 
-    <div class="fotos">
-      <div class="img1">
-        <img src="../assets/img1.png" alt="img1">
-      </div>
-      <div class="img2">
-        <img src="../assets/img2.png" alt="img2">
-      </div>
-      <div class="img3">
-        <img src="../assets/img3.png" alt="img3">
-      </div>
-    </div>
+  <div>
+    <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
+    <p class="parceira">sua parceira para soluções em injetoras!</p>
+  </div>
 
-    <div class="teste">
-      <img class="group" src="../assets/Group 1.png" alt="group1">
-      <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
-        Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
-        injetoras irão operar em sua capacidade máxima.</p>
+  <div class="fotos">
+    <div class="img1">
+      <img src="../assets/img1.png" alt="img1">
     </div>
+    <div class="img2">
+      <img src="../assets/img2.png" alt="img2">
+    </div>
+    <div class="img3">
+      <img src="../assets/img3.png" alt="img3">
+    </div>
+  </div>
+
+  <div class="teste">
+    <img class="group" src="../assets/Group 1.png" alt="group1">
+    <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
+      Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
+      injetoras irão operar em sua capacidade máxima.</p>
+  </div>
 
 </template>
 
@@ -62,15 +63,15 @@ header {
 
 .degrade {
   position: absolute;
-      top: 0; 
-      left: 0; 
-      width: 100%; 
-      height: 100%; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-      text-align: center;
-      background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
 }
 
 .somosavante {
@@ -132,9 +133,9 @@ header {
 .teste {
   display: grid;
   place-items: center;
-      position: relative; 
+  position: relative;
 
-    }
+}
 
 .group {
   margin-top: 9%;
@@ -156,8 +157,39 @@ header {
 }
 
 @media (max-width: 480px) {
+  header {
+    display: flex;
+    position: relative;
+    width: 70px;
+    height: 100px;
+    margin: -3%;
+    margin-top: 2%;
+  }
+
+  .banner {
+    display: block;
+    width: 600px;
+    height: 100px;
+  }
+
+  .degrade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1177px;
+    height: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
+  }
+
   .somosavante {
-   display: none;
+    font-size: 60px;
+    margin-left: 7%;
+    margin-top: -9%;
+
   }
 
   .parceira {
@@ -165,27 +197,13 @@ header {
   }
 
   .fotos {
-    justify-content: center; 
+    justify-content: center;
   }
 
-  .img1, .img2, .img3 {
-    max-width: 100%; 
-  }
-}
-
-@media (max-width: 480px) {
-  .somosavante {
-    font-size: 200%;
-  }
-
-  .text-group {
-    font-size: 16px; 
-  }
-
-  .flechas {
-    width: 30px; 
-    height: 20px;
+  .img1,
+  .img2,
+  .img3 {
+    max-width: 100%;
   }
 }
-
 </style>
