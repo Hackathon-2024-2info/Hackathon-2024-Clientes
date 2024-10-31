@@ -131,33 +131,22 @@ body {
   }
 
   p, a {
-
+    display: none;
     font-size: 18px; 
     padding: 1000px;
   }
 
   #img {
-    justify-content: center; 
-    padding: 10px;
-  }
-
-  img {
-    width: 100px; 
-  }
+    display: block;
+    margin: 0 auto;
 }
+ 
 
-@media (max-width: 480px) {
-  nav {
-    grid-template-columns: 1fr; 
-  }
-
-  p, a {
-    font-size: 16px; 
-    padding: 10px 0; 
-  }
-  
   img {
-    width: 80px; 
+    display: block;
+    margin: 0 auto;
+    width: 280px; 
+    padding: 50px;
   }
 }
 

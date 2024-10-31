@@ -155,13 +155,13 @@ header {
   width: 80%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .somosavante {
-    font-size: 300%;
+   display: none;
   }
 
   .parceira {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .fotos {
