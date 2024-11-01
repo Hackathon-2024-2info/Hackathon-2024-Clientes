@@ -53,19 +53,24 @@
 header {
   display: flex;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 
 .banner {
   display: block;
-  width: 100%;
+  width: 100vw;
+
+  & img {
+    max-width: 100vw;
+  }
+
 }
 
 .degrade {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -156,7 +161,7 @@ header {
   width: 80%;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   header {
     display: flex;
     position: relative;
@@ -168,16 +173,21 @@ header {
 
   .banner {
     display: block;
-    width: 600px;
+    width: 492px;
     height: 100px;
+    margin-top: 4px;
+  }
+
+  .group {
+    max-width: 100vw;
   }
 
   .degrade {
     position: absolute;
-    top: 0;
+    margin-top: 4px;
     left: 0;
-    width: 1177px;
-    height: 202px;
+    width: 492px;
+    height: 101px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,24 +196,50 @@ header {
   }
 
   .somosavante {
-    font-size: 60px;
-    margin-left: 7%;
-    margin-top: -9%;
-
+    font-size: 45px;
+    margin-left: -1%;
+    margin-top: -7%;
   }
 
-  .parceira {
-    font-size: 30px;
-  }
+  .flechas {
+  display: flex;
+  width: 30px;
+  height: 18px;
+  margin-left: 55px;
+}
+
+.parceira {
+  display: flex;
+  height: 30px;
+  margin-top: -5.5%;
+  margin-left: 90px;
+  font-size: 18px;
+  padding: 1px;
+}
 
   .fotos {
     justify-content: center;
   }
 
-  .img1,
-  .img2,
-  .img3 {
-    max-width: 100%;
+  .img1{
+   display: none;
+   
   }
+  .img2{
+    display: none;
+  }
+
+  .img3{
+    height: 5;
+    width: 5;
+
+  }
+
+  .img{
+    margin-left: 1px;
+    height: 100;
+    width: 5;
+  }
+
 }
 </style>

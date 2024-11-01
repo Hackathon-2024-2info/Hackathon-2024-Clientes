@@ -12,29 +12,28 @@ import BoxServicos from '@/components/BoxServicos.vue';
 
 
 <template>
-    <div>
-        <MenuClientes></MenuClientes>
-      <div class="home">
-        <Header></Header>
-      </div>
-  
-      <div id="sobre">
-        <ServicosComponente></ServicosComponente>
-        <CarouselLog></CarouselLog>
-      </div>
-  
-      <div id="servicos">
-        <BoxServicos></BoxServicos>
-      </div>
-
-  
-      <div id="contato">
-        <ContatoPag></ContatoPag>
-      </div>
-
-      <RodapePag></RodapePag>
-  
-      <whatsGwApi></whatsGwApi>
+  <div>
+    <MenuClientes></MenuClientes>
+    <div class="home">
+      <Header></Header>
     </div>
-  </template>
-  
+
+    <div id="sobre">
+      <ServicosComponente></ServicosComponente>
+      <CarouselLog></CarouselLog>
+    </div>
+
+    <div id="servicos">
+      <BoxServicos></BoxServicos>
+    </div>
+
+
+    <div id="contato">
+      <ContatoPag></ContatoPag>
+    </div>
+
+    <RodapePag></RodapePag>
+
+    <whatsGwApi></whatsGwApi>
+  </div>
+</template>

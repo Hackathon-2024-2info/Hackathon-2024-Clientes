@@ -23,6 +23,7 @@ nav  {
   margin: 0%;
   background: #0f0541;
   height: 72px;
+  width: 100vw;
   padding: 0;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 1fr;
@@ -42,10 +43,12 @@ p, a{
 }
 #div1{
     display: flex;
+    width: 100vw;
 }
 
 #nav{
-width: 80%; float: left
+width: 100vw; 
+float: left
 }
 img {
   position: absolute;

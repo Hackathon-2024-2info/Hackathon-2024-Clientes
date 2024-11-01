@@ -10,13 +10,13 @@ import HomeView from './components/HomeView.vue';
   
 
 <style scoped>
- body{
+ /* body{
     margin: 0%;
  }
 .header{
     margin-bottom: 10%;
     margin: 0%;
-}
+} */
 
 
  
