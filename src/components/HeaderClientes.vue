@@ -161,33 +161,51 @@ header {
   width: 80%;
 }
 
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 480px){ 
   header {
     display: flex;
     position: relative;
-    width: 70px;
-    height: 100px;
+    width: 17.9%;
+    height: 101%;
     margin: -3%;
     margin-top: 2%;
   }
 
   .banner {
     display: block;
-    width: 492px;
-    height: 100px;
-    margin-top: 4px;
+    width: 558%;
+    height: 100%;
+    margin-top: 6%;
   }
 
   .group {
-    max-width: 100vw;
+    max-width: 90vw;
+    height: 200%;
+    border-radius: 20px;
+    
   }
+.teste{
+  margin-top: 15%;
+  left: -1% ;
+  
+}
+  .text-group {
+  top: -20%;
+  left: 10%;
+  font-size: 15px;
+  line-height: 170%;
+  width: 80%;
+  
+}
+
 
   .degrade {
     position: absolute;
-    margin-top: 4px;
+    margin-top: 6%;
     left: 0;
-    width: 492px;
-    height: 101px;
+    width: 558%;
+    height: 101%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,24 +215,27 @@ header {
 
   .somosavante {
     font-size: 45px;
-    margin-left: -1%;
-    margin-top: -7%;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding:  1.5%;
   }
 
   .flechas {
   display: flex;
-  width: 30px;
-  height: 18px;
-  margin-left: 55px;
+  width: 8%;
+  height: 18%;
+  margin-left: 14%;
+  
+  padding-top: 2%;
 }
 
 .parceira {
   display: flex;
-  height: 30px;
-  margin-top: -5.5%;
-  margin-left: 90px;
+  height: 30%;
+  margin-top: -6%;
+  margin-left: 23%;
   font-size: 18px;
-  padding: 1px;
+  padding: 0;
 }
 
   .fotos {
@@ -230,13 +251,13 @@ header {
   }
 
   .img3{
-    height: 5;
-    width: 5;
+    margin-left: 5%;
+   
 
   }
 
   .img{
-    margin-left: 1px;
+    margin-left: 1%;
     height: 100;
     width: 5;
   }

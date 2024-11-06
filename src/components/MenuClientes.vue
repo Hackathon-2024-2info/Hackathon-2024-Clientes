@@ -60,6 +60,7 @@ img {
 }
 
 #img{
+  margin-left: -25%;
     flex-grow: 1;
     background-color: #0f0541
 }
@@ -126,7 +127,7 @@ body {
 
 
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px){
   nav {
     margin: -3%;
     width: 70px;
@@ -201,9 +202,9 @@ body {
 }
 
   img {
-    margin-left: 70%;
+    margin-left: 32%;
     width: 90px; 
-    padding: 20px;
+    padding: 6%;
   }
 }
 
