@@ -106,22 +106,8 @@ p{
     margin: 7%;
     padding-bottom: 7%;
 }
-
-@media (max-width: 480px) {
-    main {
-        grid-template-columns: repeat(2, 1fr); 
-    }
-    .box {
-        margin: 5%; 
-    }
-}
-
-@media (max-width: 480px) {
-    main {
-        grid-template-columns: 1fr; 
-    }
-    .box {
-        margin: 10%; 
-    }
+@media
+only screen and (max-width: 480px){
+    
 }
 </style>

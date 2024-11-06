@@ -120,14 +120,20 @@ main {
 }
 
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px){ 
   h1 {
-    font-size: 28px;
-    padding: 0 5%;
+    font-size: 25px;
+    margin-top: 30%;
+    padding: 0.5%;
   }
-
+ hr{
+  margin-top: 3%;
+  margin-left: 25%;
+  height: 6px;
+  width: 50%;
+ }
   section {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .box {
