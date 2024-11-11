@@ -19,5 +19,10 @@ import HomeView from './components/HomeView.vue';
 } */
 
 
+@media
+only screen and (max-width: 480px){
+    
+}
+
  
 </style>

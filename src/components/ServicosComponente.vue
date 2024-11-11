@@ -148,7 +148,13 @@ main {
   }
 
   section {
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 10fr 10fr ;
+  gap: 49px;
+  }
+
+  p{
+    font-size: 15px;
   }
 
   .box {

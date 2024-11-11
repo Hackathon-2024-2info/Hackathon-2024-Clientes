@@ -207,7 +207,14 @@
     margin-top: 200px;
 }
 
-@media (max-width: 480px) {
+@media
+only screen and (max-width: 480px){
+    
+main{
+    margin-top: 50%;
+
+}
+
     .solicitar {
         font-size: 20px; 
     }
@@ -217,8 +224,9 @@
     }
 
     .container {
-        margin-top: 15%;
-        padding: 10px; 
+      width: 120vw;
+      margin-left: 45%;
+   
     }
 
     .item-um, .item-dois {

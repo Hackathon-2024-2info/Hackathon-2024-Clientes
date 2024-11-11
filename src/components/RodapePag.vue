@@ -146,7 +146,8 @@ const companyName = ref('Hackathongas');
   margin-right: 6px;  
 }
 
-@media (max-width: 480px) {
+@media
+only screen and (max-width: 480px){
   .contact-info {
     flex-direction: column; 
     align-items: center; 
