@@ -191,7 +191,7 @@ header {
   
 }
   .text-group {
-  top: -20%;
+  top: -2%;
   left: 10%;
   font-size: 15px;
   line-height: 170%;
@@ -251,9 +251,7 @@ header {
   }
 
   .img3{
-    margin-left: 5%;
-   
-
+    margin-left: 22%;
   }
 
   .img{

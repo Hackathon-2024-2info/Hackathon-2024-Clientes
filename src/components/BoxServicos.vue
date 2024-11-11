@@ -119,25 +119,16 @@ p {
     }
 
     h1 {
-        text-align: center;
-        font-size: 36px;
-        color: #091d87;
-        font-family: 'Karla', sans-serif;
-        font-weight: 700;
-        display: flex;
-        justify-content: center;
-        margin-top: 6%;
+        font-size: 25px;
+        margin-top: 20%;
+        padding: 0.5%;
     }
 
-
     hr {
-        height: 12px;
-        width: 338.01px;
-        background: #d9d9d9;
-        border: #d9d9d9;
-        border-radius: 50px;
-        margin-left: 40%;
-        margin-top: 1%;
+        margin-top: 3%;
+        margin-left: 25%;
+        height: 6px;
+        width: 50%;
     }
 
     .box {
@@ -153,5 +144,4 @@ p {
 
 
 }
-
 </style>

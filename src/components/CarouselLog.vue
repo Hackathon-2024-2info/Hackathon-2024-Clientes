@@ -39,5 +39,15 @@ h1{
     font-weight: 500;
 }
 
+@media only screen and (max-width: 480px) {
+
+ 
+
+  h1{
+    margin-top: 10%;
+  }
+  
+}
+
 @import url("../../node_modules/@egjs/vue3-flicking/dist/flicking-inline.css");
 </style>

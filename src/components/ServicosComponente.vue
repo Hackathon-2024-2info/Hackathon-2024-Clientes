@@ -132,17 +132,13 @@ main {
   height: 6px;
   width: 50%;
  }
-  section {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+
 
   .box {
-    width: 90%;
+    width: 3%;
     margin: 10px auto;
   }
-}
 
-@media (max-width: 480px) {
   h1 {
     font-size: 24px;
   }
@@ -150,7 +146,8 @@ main {
   section {
   display: grid;
   grid-template-columns: 10fr 10fr ;
-  gap: 49px;
+  gap: 20px;
+  margin-left: -2%;
   }
 
   p{
@@ -158,7 +155,7 @@ main {
   }
 
   .box {
-    width: 95%;
+    width: 82%;
   }
 }
 </style>
