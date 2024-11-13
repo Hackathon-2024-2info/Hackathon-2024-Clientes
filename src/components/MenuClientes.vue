@@ -128,84 +128,46 @@ body {
 
 
 @media only screen and (max-width: 480px){
-  nav {
-    margin: -3%;
-    width: 70px;
-    height: 100px;
-  }
-  p, a {
-    font-size: 15px; 
-    padding: 30px;
-  }
+  nav  {
+  margin: 0%;
+  background: #0f0541;
+  height: 72px;
+  width: 100vw;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 1fr;
+}
+p, a{
+  font-size: 15px;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  text-align: center;
+  margin-top: 10%;
+  background: #0f0541;
+  text-decoration: none;
 
-  #div1{
+}
+#div1{
     display: flex;
-    margin: -3%;
+    width: 100vw;
 }
 
 #nav{
-  margin: -3%;
-  width: 35px; float: left
+width: 110vw; 
+float: left
 }
 
 
-#sobrenos {
-  left: 2.97%;
-  top: 29.76%;
-  bottom: 47.32%;
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  color: #ffffff;
+img{
+  margin-left: -7%;
+  width: 20%;
+  margin-top: 4%;
+    
 }
 
-#contato {
-  left: 54.72%;
+
  
-  top: 29.76%;
-  bottom: 46.96%;
-
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  color: #ffffff;
-}
-
-#servicos {
-  left: 38.75%;
-  top: 29.76%;
-  bottom: 35.32%;
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  color: #ffffff;
-}
-
-
-#home {
-  left: 6.67%;
-  right: 86.6%;
-  top: 29.66%;
-  bottom: 47.06%;
-  font-family: 'Jost';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  color: #ffffff;
-}
-
-  img {
-    margin-left: 32%;
-    width: 90px; 
-    padding: 6%;
-  }
 }
 
 </style>

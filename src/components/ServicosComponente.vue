@@ -122,40 +122,44 @@ main {
 
 @media only screen and (max-width: 480px){ 
   h1 {
-    font-size: 25px;
-    margin-top: 30%;
-    padding: 0.5%;
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 10%;
   }
  hr{
-  margin-top: 3%;
-  margin-left: 25%;
-  height: 6px;
-  width: 50%;
+  margin-top: -7%;
+  margin-left: 35%;
+  height: 4px;
+  width: 30%;
  }
 
-
+h3{
+  font-size: 14px;
+}
   .box {
     width: 3%;
     margin: 10px auto;
   }
 
-  h1 {
-    font-size: 24px;
-  }
 
   section {
   display: grid;
   grid-template-columns: 10fr 10fr ;
-  gap: 20px;
+  gap: 12px;
   margin-left: -2%;
   }
 
+img{
+  width: 25%;
+
+}
   p{
-    font-size: 15px;
+    font-size: 12px;
   }
 
   .box {
-    width: 82%;
+    width: 70%;
+    height: 80%;
   }
 }
 </style>

@@ -174,26 +174,26 @@ header {
 
   .banner {
     display: block;
-    width: 558%;
+    width: 573%;
     height: 100%;
     margin-top: 6%;
   }
 
   .group {
     max-width: 90vw;
-    height: 200%;
+    height: 100%;
     border-radius: 20px;
     
   }
 .teste{
-  margin-top: 15%;
+  margin-top: 9%;
   left: -1% ;
   
 }
   .text-group {
-  top: -2%;
+  top: 24%;
   left: 10%;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 170%;
   width: 80%;
   
@@ -204,7 +204,7 @@ header {
     position: absolute;
     margin-top: 6%;
     left: 0;
-    width: 558%;
+    width: 575%;
     height: 101%;
     display: flex;
     justify-content: center;
@@ -214,7 +214,7 @@ header {
   }
 
   .somosavante {
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 2%;
     margin-top: 2%;
     padding:  1.5%;
@@ -222,8 +222,8 @@ header {
 
   .flechas {
   display: flex;
-  width: 8%;
-  height: 18%;
+  width: 6%;
+  height: 16%;
   margin-left: 14%;
   
   padding-top: 2%;
@@ -232,9 +232,9 @@ header {
 .parceira {
   display: flex;
   height: 30%;
-  margin-top: -6%;
-  margin-left: 23%;
-  font-size: 18px;
+  margin-top: -5%;
+  margin-left: 21%;
+  font-size: 14px;
   padding: 0;
 }
 
@@ -252,12 +252,14 @@ header {
 
   .img3{
     margin-left: 22%;
+    height: 10%;
+    width: -5%;
   }
 
   .img{
     margin-left: 1%;
-    height: 100;
-    width: 5;
+    height: 100vw;
+    width: 5vw;
   }
 
 }

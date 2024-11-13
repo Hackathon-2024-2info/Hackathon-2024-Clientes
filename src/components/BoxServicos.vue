@@ -113,26 +113,24 @@ p {
     main {
         display: grid;
         grid-template-columns: 32fr 32fr 32fr;
-        gap: 20px;
+        gap: 10px;
 
 
     }
 
     h1 {
-        font-size: 25px;
-        margin-top: 20%;
-        padding: 0.5%;
-    }
-
-    hr {
-        margin-top: 3%;
-        margin-left: 25%;
-        height: 6px;
-        width: 50%;
-    }
+    font-size: 20px;
+    margin-top: 10%;
+    padding: 10%;
+  }
+ hr{
+  margin-top: -7%;
+  margin-left: 35%;
+  height: 4px;
+  width: 30%;
+ }
 
     .box {
-
         width: 80vw;
         height: 50vw;
     }
