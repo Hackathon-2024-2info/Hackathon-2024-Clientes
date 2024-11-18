@@ -211,21 +211,34 @@
 only screen and (max-width: 480px){
     
 main{
-    margin-top: 50%;
-
+    margin-top: 15%;
 }
 
     .solicitar {
-        font-size: 20px; 
+        margin-top: 2%;
+        margin-left: 6%;
+        font-size: 18px; 
     }
 
-    .duvidas, .entrecontato {
+    .entrecontato , .flechas{
+        margin-top: 15%;
+        margin-left: 6.4%;
         font-size: 16px;
     }
 
+    .duvidas {
+        margin-top: 8%;
+        margin-left: 6.4%;
+        font-size: 16px;
+
+    }
+
     .container {
-      width: 120vw;
-      margin-left: 45%;
+      width: 90vw;
+      height: 20%;
+      margin-top: 2%;
+      margin-left: 1%;
+      border-radius: 23px;
    
     }
 

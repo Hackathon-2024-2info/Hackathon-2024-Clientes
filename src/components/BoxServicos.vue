@@ -112,10 +112,8 @@ p {
 
     main {
         display: grid;
-        grid-template-columns: 32fr 32fr 32fr;
-        gap: 10px;
-
-
+        grid-template-columns: 32fr;
+     
     }
 
     h1 {
@@ -131,8 +129,14 @@ p {
  }
 
     .box {
-        width: 80vw;
-        height: 50vw;
+        margin-top: 0%;
+        width: 60vw;
+        height: 70vw;
+       
+    }
+    img{
+        margin-top: 10%;
+        width: 70%;
     }
 
     p {

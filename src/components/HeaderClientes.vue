@@ -169,7 +169,7 @@ header {
     width: 17.9%;
     height: 101%;
     margin: -3%;
-    margin-top: 2%;
+    margin-top: -1%;
   }
 
   .banner {

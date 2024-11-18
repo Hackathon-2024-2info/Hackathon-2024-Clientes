@@ -44,7 +44,12 @@ h1{
  
 
   h1{
+    font-size: 15px;
     margin-top: 10%;
+  }
+   
+  img{
+    width: 70%;
   }
   
 }

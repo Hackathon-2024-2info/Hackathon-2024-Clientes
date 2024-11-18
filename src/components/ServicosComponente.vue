@@ -144,7 +144,7 @@ h3{
 
   section {
   display: grid;
-  grid-template-columns: 10fr 10fr ;
+  grid-template-columns: 10fr;
   gap: 12px;
   margin-left: -2%;
   }
@@ -158,8 +158,8 @@ img{
   }
 
   .box {
-    width: 70%;
-    height: 80%;
+    width: 30%;
+    height: 60%;
   }
 }
 </style>
