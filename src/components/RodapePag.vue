@@ -148,6 +148,11 @@ const companyName = ref('Hackathongas');
 
 @media
 only screen and (max-width: 480px){
+
+.footer{
+  margin-top: 70%;
+}
+
   .contact-info {
     flex-direction: column; 
     align-items: center; 

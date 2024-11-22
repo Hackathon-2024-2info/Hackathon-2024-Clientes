@@ -113,7 +113,7 @@
 }
 
 .infos {
-    padding-top:27%;
+    padding-top: 27%;
     margin-right: 60%;
 }
 
@@ -207,54 +207,97 @@
     margin-top: 200px;
 }
 
-@media
-only screen and (max-width: 480px){
-    
-main{
-    margin-top: 15%;
-}
+@media only screen and (max-width: 480px) {
+
+    main {
+        margin-top: 30%;
+    }
 
     .solicitar {
         margin-top: 2%;
         margin-left: 6%;
-        font-size: 18px; 
+        font-size: 18px;
     }
 
-    .entrecontato , .flechas{
-        margin-top: 15%;
-        margin-left: 6.4%;
-        font-size: 16px;
+    .entrecontato {
+        margin-top: 20%;
+        margin-left: 14%;
+        font-size: 14px;
+    }
+
+    .flecha {
+        width: 5%;
+        height: 7%;
+        margin-left: 8%;
+        margin-top: 22.8%;
     }
 
     .duvidas {
-        margin-top: 8%;
+        margin-top: 8.5%;
         margin-left: 6.4%;
-        font-size: 16px;
+        font-size: 15px;
 
     }
 
     .container {
-      width: 90vw;
-      height: 20%;
-      margin-top: 2%;
-      margin-left: 1%;
-      border-radius: 23px;
-   
-    }
+        width: 90vw;
+        height: 20%;
+        margin-top: 2%;
+        margin-left: 1%;
+        border-radius: 22px;
 
-    .item-um, .item-dois {
-        width: 100%; 
-    }
-
-    .cartaimg, .telefoneimg {
-        width: 30px;
     }
 
     .infos {
-        padding-top: 10%; 
+        margin-left: -19%;
     }
+
+    .cartaimg {
+        width: 6%;
+        height: 4%;
+    }
+
+    .emailreal {
+        margin-top: 30%;
+        font-size: 16px;
+    }
+
+    .cartatext {
+        margin-top: 7%;
+        font-size: 16px;
+    }
+
+    .duv {
+        font-size: 16px;
+        margin-top: 21%; 
+    }
+
+    .telefoneimg {
+        width: 6%;
+        height: 4%;
+        margin-left: 54%;
+
+    }
+
+
+    .telefonetext{
+        margin-top: 7%;
+        font-size: 16px;
+        margin-left: 54%;
+
+    }
+
+    .telreal{
+        margin-top: 45%;
+        font-size: 16px;
+        margin-left: 54%;
+    }
+
+    .contatar{
+        margin-top: 21%;
+        font-size: 16px;
+        margin-left: 54%;
+    }
+
 }
-
-
-
 </style>

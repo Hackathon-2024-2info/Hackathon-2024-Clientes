@@ -140,6 +140,7 @@ p {
     }
 
     p {
+        font-size: 14px;
         margin: 7%;
         padding-bottom: 7%;
     }
