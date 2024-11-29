@@ -154,12 +154,13 @@ img{
 
 }
   p{
-    font-size: 12px;
+    font-size: 11px;
+    padding: 1%;
   }
 
   .box {
     width: 30%;
-    height: 60%;
+    height: 65%;
   }
 }
 </style>

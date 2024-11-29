@@ -132,7 +132,7 @@ body {
   margin: 0%;
   background: #0f0541;
   height: 72px;
-  width: 100vw;
+  width: 101vw;
   padding: 0;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 1fr;
@@ -150,19 +150,19 @@ p, a{
 }
 #div1{
     display: flex;
-    width: 100vw;
+    width: 99vw;
 }
 
 #nav{
-width: 110vw; 
+width: 100vw; 
 float: left
 }
 
 
 img{
-  margin-left: -7%;
+  margin-left: -1%;
   width: 20%;
-  margin-top: 4%;
+  margin-top: 7%;
     
 }
 

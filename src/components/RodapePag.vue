@@ -121,9 +121,7 @@ const companyName = ref('Hackathongas');
 }
 
 .logo {
-  width: 150px; 
-  height: auto; 
-  margin-left: 1000px; 
+ display: none;
 }
  .endereco {
   width: 15px;

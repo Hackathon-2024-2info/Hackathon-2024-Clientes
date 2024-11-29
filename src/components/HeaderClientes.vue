@@ -174,7 +174,7 @@ header {
 
   .banner {
     display: block;
-    width: 573%;
+    width: 603%;
     height: 100%;
     margin-top: 6%;
   }
@@ -186,8 +186,8 @@ header {
     
   }
 .teste{
-  margin-top: 9%;
-  left: -1% ;
+  margin-top: -10%;
+  left: 1% ;
   
 }
   .text-group {
@@ -204,7 +204,7 @@ header {
     position: absolute;
     margin-top: 6%;
     left: 0;
-    width: 575%;
+    width: 589%;
     height: 101%;
     display: flex;
     justify-content: center;
@@ -250,16 +250,16 @@ header {
     display: none;
   }
 
-  .img3{
-    margin-left: 22%;
-    height: 10%;
-    width: -5%;
+  img{
+    margin-left: -22%;
+    height: 77%;
+    width: 100%;
   }
 
-  .img{
-    margin-left: 1%;
-    height: 100vw;
-    width: 5vw;
+  .group{
+    margin-left: 2%;
+    height: 40vw;
+    width: 100vw;
   }
 
 }
