@@ -122,7 +122,7 @@ main {
 
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 16px;
+    font-size: 120%;
     margin-top: 10%;
     padding: 10%;
   }
@@ -136,7 +136,7 @@ main {
 
   h3 {
     margin-top: 1%;
-    font-size: 11px;
+    font-size: 13px;
   }
 
   .box {
@@ -160,7 +160,7 @@ main {
 
   p {
     margin-top: -3%;
-    font-size: 11px;
+    font-size: 12px;
     padding: 1%;
   }
 

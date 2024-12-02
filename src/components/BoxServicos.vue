@@ -117,7 +117,7 @@ p {
     }
 
     h1 {
-        font-size: 16px;
+        font-size: 120%;
         margin-top: -15%;
         padding: 10%;
     }

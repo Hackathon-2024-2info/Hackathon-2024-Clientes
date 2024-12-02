@@ -145,7 +145,7 @@ body {
 
   p,
   a {
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
     color: white;
     margin: 0;
