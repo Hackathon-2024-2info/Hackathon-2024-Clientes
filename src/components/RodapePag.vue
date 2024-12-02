@@ -27,7 +27,7 @@ const companyName = ref('Hackathongas');
           </div>
         </div>
       </div>
-      
+
       <div class="enderecoinfo">
         <p class="enderecot">Endereço Comercial</p>
         <div class="location-info">
@@ -86,33 +86,44 @@ const companyName = ref('Hackathongas');
   max-width: 1200px;
 }
 
-.contact-section, .email-section {
+.contact-section,
+.email-section {
   display: flex;
   flex-direction: column;
   margin: 0 1rem;
 }
 
-.phone-info, .email-info, .location-info, .horario-info {
+.phone-info,
+.email-info,
+.location-info,
+.horario-info {
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
 }
 
-.telefone, .endereco {
+.telefone,
+.endereco {
   width: 24px;
   height: 24px;
   margin-right: 8px;
 }
 
-.phone-numbers p, .email-numbers p, .location-address p, .horario-hours p {
+.phone-numbers p,
+.email-numbers p,
+.location-address p,
+.horario-hours p {
   margin: 0;
 }
 
-.contatot, .enderecot, .horariot {
+.contatot,
+.enderecot,
+.horariot {
   font-weight: bold;
 }
 
-.contatop, .emailp {
+.contatop,
+.emailp {
   word-break: break-word;
 }
 
@@ -121,44 +132,49 @@ const companyName = ref('Hackathongas');
 }
 
 .logo {
- display: none;
+  display: none;
 }
- .endereco {
+
+.endereco {
   width: 15px;
-  height: 20px; 
-  margin-right: 6px; 
+  height: 20px;
+  margin-right: 6px;
 }
+
 .telefone {
-  width: 20px; 
-  height: 20px; 
-  margin-right: 6px; 
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
+
 .email {
-    width: 17px;
-  height: 15px; 
-  margin-right: 6px; 
+  width: 17px;
+  height: 15px;
+  margin-right: 6px;
 }
+
 .relogio {
-    width: 20px;
-  height: 20px; 
-  margin-right: 6px;  
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
 
-@media
-only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
-.footer{
-  margin-top: 70%;
-}
+  .footer {
+    margin-top: 50%;
 
-  .contact-info {
-    flex-direction: column; 
-    align-items: center; 
   }
 
-  .contact-section, .email-section {
+  .contact-info {
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .contact-section,
+  .email-section {
     margin: 0.5rem 0;
-    width: 100%; 
+    width: 100%;
   }
 
   .logo {
@@ -171,14 +187,18 @@ only screen and (max-width: 480px){
     padding: 0 1rem;
   }
 
-  .telefone, .email, .endereco, .relogio {
-    width: 20px; 
+
+
+  .telefone,
+  .email,
+  .endereco,
+  .relogio {
+    width: 20px;
     height: 20px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
-
 </style>

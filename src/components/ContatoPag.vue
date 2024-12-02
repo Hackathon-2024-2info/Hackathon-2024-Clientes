@@ -216,26 +216,26 @@
     .solicitar {
         margin-top: 2%;
         margin-left: 6%;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .entrecontato {
         margin-top: 20%;
         margin-left: 14%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .flecha {
-        width: 5%;
-        height: 7%;
+        width: 4%;
+        height: 6%;
         margin-left: 8%;
-        margin-top: 22.8%;
+        margin-top: 22%;
     }
 
     .duvidas {
         margin-top: 8.5%;
         margin-left: 6.4%;
-        font-size: 15px;
+        font-size: 13px;
 
     }
 
@@ -253,49 +253,49 @@
     }
 
     .cartaimg {
-        width: 6%;
-        height: 4%;
+        width: 5%;
+        height: 3%;
     }
 
     .emailreal {
-        margin-top: 30%;
-        font-size: 16px;
+        margin-top: 24%;
+        font-size: 13px;
     }
 
     .cartatext {
         margin-top: 7%;
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .duv {
-        font-size: 16px;
-        margin-top: 21%; 
+        font-size: 13px;
+        margin-top: 17%;
     }
 
     .telefoneimg {
-        width: 6%;
-        height: 4%;
+        width: 5%;
+        height: 3%;
         margin-left: 54%;
 
     }
 
 
-    .telefonetext{
+    .telefonetext {
         margin-top: 7%;
-        font-size: 16px;
+        font-size: 13px;
         margin-left: 54%;
 
     }
 
-    .telreal{
-        margin-top: 45%;
-        font-size: 16px;
+    .telreal {
+        margin-top: 28%;
+        font-size: 13px;
         margin-left: 54%;
     }
 
-    .contatar{
-        margin-top: 21%;
-        font-size: 16px;
+    .contatar {
+        margin-top: 17%;
+        font-size: 13px;
         margin-left: 54%;
     }
 

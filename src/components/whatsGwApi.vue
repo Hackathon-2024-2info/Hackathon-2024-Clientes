@@ -3,28 +3,28 @@
 
 <template>
 
-<div class="zapbutton">
-    
-<a href="https://wa.me/+5547996105239" target="_blank">
-    <img src="../assets/zap.png" width="50" alt="Fale com nois" title="Fale com nois">
-</a>
-</div>
+    <div class="zapbutton">
+
+        <a href="https://wa.me/+5547996105239" target="_blank">
+            <img src="../assets/zap.png" width="50" alt="Fale com nois" title="Fale com nois">
+        </a>
+    </div>
 
 
 
 </template>
 
 <style>
-.zapbutton{
+.zapbutton {
     position: fixed;
     bottom: 30px;
     right: 30px;
     z-index: 999;
 }
 
-@media only screen and (max-width: 480px){ 
-.zapbutton{
-    margin-right: -2%;
-}
+@media only screen and (max-width: 480px) {
+    .zapbutton {
+        margin-right: 2%;
+    }
 }
 </style>

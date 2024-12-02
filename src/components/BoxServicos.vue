@@ -113,34 +113,37 @@ p {
     main {
         display: grid;
         grid-template-columns: 32fr;
-     
+
     }
 
     h1 {
-    font-size: 20px;
-    margin-top: 10%;
-    padding: 10%;
-  }
- hr{
-  margin-top: -7%;
-  margin-left: 35%;
-  height: 4px;
-  width: 30%;
- }
+        font-size: 16px;
+        margin-top: -15%;
+        padding: 10%;
+    }
+
+    hr {
+        margin-top: -6%;
+        margin-left: 36%;
+        height: 4px;
+        width: 30%;
+    }
 
     .box {
-        margin-top: 0%;
-        width: 60vw;
-        height: 70vw;
-       
+        margin-left: 24%;
+        margin-top: 7%;
+        width: 50vw;
+        height: 50vw;
+
     }
-    img{
+
+    img {
         margin-top: 10%;
         width: 70%;
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
         margin: 7%;
         padding-bottom: 7%;
     }

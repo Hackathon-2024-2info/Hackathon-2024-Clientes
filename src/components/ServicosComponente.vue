@@ -120,22 +120,25 @@ main {
 }
 
 
-@media only screen and (max-width: 480px){ 
+@media only screen and (max-width: 480px) {
   h1 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10%;
     padding: 10%;
   }
- hr{
-  margin-top: -7%;
-  margin-left: 35%;
-  height: 4px;
-  width: 30%;
- }
 
-h3{
-  font-size: 14px;
-}
+  hr {
+    margin-top: -7%;
+    margin-left: 35%;
+    height: 4px;
+    width: 30%;
+  }
+
+  h3 {
+    margin-top: 1%;
+    font-size: 11px;
+  }
+
   .box {
     width: 3%;
     margin: 10px auto;
@@ -143,24 +146,27 @@ h3{
 
 
   section {
-  display: grid;
-  grid-template-columns: 10fr;
-  gap: 12px;
-  margin-left: -2%;
+    display: grid;
+    grid-template-columns: 10fr;
+    gap: 12px;
+    margin-left: -2%;
   }
 
-img{
-  width: 25%;
+  img {
+    margin-top: -20%;
+    width: 25%;
 
-}
-  p{
+  }
+
+  p {
+    margin-top: -3%;
     font-size: 11px;
     padding: 1%;
   }
 
   .box {
     width: 30%;
-    height: 65%;
+    height: 50%;
   }
 }
 </style>
