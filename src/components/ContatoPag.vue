@@ -33,8 +33,6 @@
                 <div></div>
             </div>
         </div>
-
-
     </main>
 
 
@@ -115,7 +113,7 @@
 }
 
 .infos {
-    padding-top:27%;
+    padding-top: 27%;
     margin-right: 60%;
 }
 
@@ -207,5 +205,99 @@
     line-height: 35px;
     color: #000000;
     margin-top: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    main {
+        margin-top: 30%;
+    }
+
+    .solicitar {
+        margin-top: 2%;
+        margin-left: 6%;
+        font-size: 14px;
+    }
+
+    .entrecontato {
+        margin-top: 20%;
+        margin-left: 14%;
+        font-size: 12px;
+    }
+
+    .flecha {
+        width: 4%;
+        height: 6%;
+        margin-left: 8%;
+        margin-top: 22%;
+    }
+
+    .duvidas {
+        margin-top: 8.5%;
+        margin-left: 6.4%;
+        font-size: 13px;
+
+    }
+
+    .container {
+        width: 90vw;
+        height: 20%;
+        margin-top: 2%;
+        margin-left: 1%;
+        border-radius: 22px;
+
+    }
+
+    .infos {
+        margin-left: -19%;
+    }
+
+    .cartaimg {
+        width: 5%;
+        height: 3%;
+    }
+
+    .emailreal {
+        margin-top: 24%;
+        font-size: 13px;
+    }
+
+    .cartatext {
+        margin-top: 7%;
+        font-size: 13px;
+    }
+
+    .duv {
+        font-size: 13px;
+        margin-top: 17%;
+    }
+
+    .telefoneimg {
+        width: 5%;
+        height: 3%;
+        margin-left: 54%;
+
+    }
+
+
+    .telefonetext {
+        margin-top: 7%;
+        font-size: 13px;
+        margin-left: 54%;
+
+    }
+
+    .telreal {
+        margin-top: 28%;
+        font-size: 13px;
+        margin-left: 54%;
+    }
+
+    .contatar {
+        margin-top: 17%;
+        font-size: 13px;
+        margin-left: 54%;
+    }
+
 }
 </style>

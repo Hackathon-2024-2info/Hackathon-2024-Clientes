@@ -19,15 +19,19 @@
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-nav  {
-  margin: 0;
+
+nav {
+  margin: 0%;
   background: #0f0541;
   height: 72px;
+  width: 100vw;
   padding: 0;
   display: grid;
   grid-template-columns: 15% 15% 15% 15% 1fr;
 }
-p, a{
+
+p,
+a {
   font-family: 'Jost', sans-serif;
   font-optical-sizing: auto;
   font-size: 20px;
@@ -40,13 +44,17 @@ p, a{
   text-decoration: none;
 
 }
-#div1{
-    display: flex;
+
+#div1 {
+  display: flex;
+  width: 100vw;
 }
 
-#nav{
-width: 80%; float: left
+#nav {
+  width: 100vw;
+  float: left
 }
+
 img {
   position: absolute;
   width: 120px;
@@ -56,9 +64,10 @@ img {
   margin-left: 10%;
 }
 
-#img{
-    flex-grow: 1;
-    background-color: #0f0541
+#img {
+  margin-left: -25%;
+  flex-grow: 1;
+  background-color: #0f0541
 }
 
 #sobrenos {
@@ -85,7 +94,6 @@ img {
   font-weight: 400;
   font-size: 24px;
   line-height: 35px;
-
   color: #ffffff;
 }
 
@@ -103,6 +111,7 @@ img {
 
   color: #ffffff;
 }
+
 body {
   margin: 0;
 }
@@ -120,5 +129,52 @@ body {
   line-height: 35px;
 
   color: #ffffff;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  nav {
+    margin: 0%;
+    height: 72px;
+    width: 101vw;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 1fr;
+  }
+
+  p,
+  a {
+    font-size: 13px;
+    font-style: normal;
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-top: 32%;
+    text-decoration: none;
+    margin-left: 15%;
+
+  }
+
+  #div1 {
+    display: flex;
+    width: 99vw;
+  }
+
+  #nav {
+    width: 100vw;
+    float: left
+  }
+
+
+  img {
+    margin-left: 3%;
+    width: 15%;
+    margin-top: 5%;
+
+  }
+
+
+
 }
 </style>

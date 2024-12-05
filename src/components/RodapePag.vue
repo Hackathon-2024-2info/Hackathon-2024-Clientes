@@ -3,8 +3,8 @@ import { ref } from 'vue';
 
 const currentYear = ref(new Date().getFullYear());
 const companyName = ref('Hackathongas');
-
 </script>
+
 
 <template>
   <footer class="footer">
@@ -27,11 +27,11 @@ const companyName = ref('Hackathongas');
           </div>
         </div>
       </div>
-      
+
       <div class="enderecoinfo">
         <p class="enderecot">Endereço Comercial</p>
         <div class="location-info">
-          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <img class="endereco" src="@/assets/Icon.png" alt="Ícone de endereço">
           <div class="location-address">
             <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
             <p class="enderecop">Porto Grande - Araquari</p>
@@ -39,7 +39,7 @@ const companyName = ref('Hackathongas');
         </div>
         <p class="enderecot">Endereço Industrial</p>
         <div class="location-info">
-          <img class="endereco" src="@/assets/icon.png" alt="Ícone de endereço">
+          <img class="endereco" src="@/assets/Icon.png" alt="Ícone de endereço">
           <div class="location-address">
             <p class="enderecop">Rua dos Técnicos Agrícolas, 141,</p>
             <p class="enderecop">Porto Grande - Araquari</p>
@@ -69,6 +69,7 @@ const companyName = ref('Hackathongas');
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
 .footer {
+  margin: -2%;
   background-color: rgba(15, 5, 65, 1);
   color: white;
   font-family: "Kantumruy Pro", sans-serif;
@@ -85,33 +86,44 @@ const companyName = ref('Hackathongas');
   max-width: 1200px;
 }
 
-.contact-section, .email-section {
+.contact-section,
+.email-section {
   display: flex;
   flex-direction: column;
   margin: 0 1rem;
 }
 
-.phone-info, .email-info, .location-info, .horario-info {
+.phone-info,
+.email-info,
+.location-info,
+.horario-info {
   display: flex;
   align-items: center;
   margin-bottom: 0.5rem;
 }
 
-.telefone, .endereco {
+.telefone,
+.endereco {
   width: 24px;
   height: 24px;
   margin-right: 8px;
 }
 
-.phone-numbers p, .email-numbers p, .location-address p, .horario-hours p {
+.phone-numbers p,
+.email-numbers p,
+.location-address p,
+.horario-hours p {
   margin: 0;
 }
 
-.contatot, .enderecot, .horariot {
+.contatot,
+.enderecot,
+.horariot {
   font-weight: bold;
 }
 
-.contatop, .emailp {
+.contatop,
+.emailp {
   word-break: break-word;
 }
 
@@ -120,28 +132,73 @@ const companyName = ref('Hackathongas');
 }
 
 .logo {
-  width: 150px; 
-  height: auto; 
-  margin-left: 1000px; 
+  display: none;
 }
- .endereco {
+
+.endereco {
   width: 15px;
-  height: 20px; 
-  margin-right: 6px; 
+  height: 20px;
+  margin-right: 6px;
 }
+
 .telefone {
-  width: 20px; 
-  height: 20px; 
-  margin-right: 6px; 
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
 }
+
 .email {
-    width: 17px;
-  height: 15px; 
-  margin-right: 6px; 
+  width: 17px;
+  height: 15px;
+  margin-right: 6px;
 }
+
 .relogio {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .footer {
+    margin-top: 50%;
+
+  }
+
+  .contact-info {
+    flex-direction: column;
+    margin-left: 1%;
+  }
+
+  .contact-section,
+  .email-section {
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-info {
+    padding: 0 1rem;
+  }
+
+
+
+  .telefone,
+  .email,
+  .endereco,
+  .relogio {
     width: 20px;
-  height: 20px; 
-  margin-right: 6px;  
+    height: 20px;
+  }
+
+  p {
+    font-size: 13px;
+  }
 }
 </style>

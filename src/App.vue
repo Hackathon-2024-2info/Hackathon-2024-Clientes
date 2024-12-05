@@ -10,11 +10,18 @@ import HomeView from './components/HomeView.vue';
   
 
 <style scoped>
- body{
-    margin: 0;
+  body{
+    margin: 0%;
  }
 .header{
     margin-bottom: 10%;
+    margin: 0%;
+} 
+
+
+@media
+only screen and (max-width: 480px){
+    
 }
 
  

@@ -6,21 +6,22 @@
     <h1>
         NOSSAS SOLUÇÕES A SUA DISPOSIÇÃO
     </h1>
+
     <hr>
     <main>
         <div>
-                <div class="box">
-                    <img src="../assets/Manutencao-preventiva-de-veiculos-a-gas 2.png" alt="">
-                    <p>MANUTENÇÃO PREVENTIVA</p>
-                </div>
-                <div class="box">
-                    <img src="../assets/saiba-quando-e-a-hora-de-realizar-manutencao-nos-seus-equipamentos 1.png" alt="">
-                    <p>MANUTENÇÃO HIDRÁULICA</p>
-                </div>
-                <div class="box">
-                    <img src="../assets/careca 1.png" alt="">
-                    <p>EQUALIZAÇÃO (NIVELAMENTO E PARALELISMO)</p>
-                </div>
+            <div class="box">
+                <img src="../assets/Manutencao-preventiva-de-veiculos-a-gas 2.png" alt="">
+                <p>MANUTENÇÃO PREVENTIVA</p>
+            </div>
+            <div class="box">
+                <img src="../assets/saiba-quando-e-a-hora-de-realizar-manutencao-nos-seus-equipamentos 1.png" alt="">
+                <p>MANUTENÇÃO HIDRÁULICA</p>
+            </div>
+            <div class="box">
+                <img src="../assets/careca 1.png" alt="">
+                <p>EQUALIZAÇÃO (NIVELAMENTO E PARALELISMO)</p>
+            </div>
         </div>
 
         <div>
@@ -59,48 +60,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-main{
+
+main {
     display: grid;
     grid-template-columns: 32.5% 32.5% 32.5%;
 
 }
 
 h1 {
-  text-align: center;
-  font-size: 36px;
-  color: #091d87;
-  font-family: 'Karla', sans-serif;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
-  margin-top: 6%;
+    text-align: center;
+    font-size: 36px;
+    color: #091d87;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
 }
+
+
 hr {
-  height: 12px;
-  width: 338.01px;
-  background: #d9d9d9;
-  border: #d9d9d9;
-  border-radius: 50px;
-  margin-left: 40%;
-  margin-top: 1%;
+    height: 12px;
+    width: 338.01px;
+    background: #d9d9d9;
+    border: #d9d9d9;
+    border-radius: 50px;
+    margin-left: 40%;
+    margin-top: 1%;
 }
 
-.box{
+.box {
     font-family: "KoHo", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  color: #0F0541;
-  text-align: center;
-  margin: 15%;
-  margin-left: 20%;
-  justify-content: center;
+    font-weight: 600;
+    font-style: normal;
+    color: #0F0541;
+    text-align: center;
+    margin: 15%;
+    margin-left: 20%;
+    justify-content: center;
 
-  border-radius: 15px;
-  box-shadow: 5px 10px 5px #d9d9d9d9;
+    border-radius: 15px;
+    box-shadow: 5px 10px 5px #d9d9d9d9;
 }
 
-p{
+p {
     margin: 7%;
     padding-bottom: 7%;
+}
+
+@media only screen and (max-width: 480px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 32fr;
+
+    }
+
+    h1 {
+        font-size: 120%;
+        margin-top: -15%;
+        padding: 10%;
+    }
+
+    hr {
+        margin-top: -6%;
+        margin-left: 36%;
+        height: 4px;
+        width: 30%;
+    }
+
+    .box {
+        margin-left: 24%;
+        margin-top: 7%;
+        width: 50vw;
+        height: 50vw;
+
+    }
+
+    img {
+        margin-top: 10%;
+        width: 70%;
+    }
+
+    p {
+        font-size: 12px;
+        margin: 7%;
+        padding-bottom: 7%;
+    }
+
+
 }
 </style>

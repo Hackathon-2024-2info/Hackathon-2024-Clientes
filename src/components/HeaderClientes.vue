@@ -5,10 +5,6 @@
 
 
 <template>
-
-
-
-
   <header>
     <img class="banner" src="../assets/seraheader.png" alt="banner">
 
@@ -18,31 +14,32 @@
   <div>
     <div class="somosavante">
       <p>SOMOS A AVANTE</p>
-    </div> </div>
-
-    <div>
-      <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
-      <p class="parceira">sua parceira para soluções em injetoras!</p>
     </div>
+  </div>
 
-    <div class="fotos">
-      <div class="img1">
-        <img src="../assets/img1.png" alt="img1">
-      </div>
-      <div class="img2">
-        <img src="../assets/img2.png" alt="img2">
-      </div>
-      <div class="img3">
-        <img src="../assets/img3.png" alt="img3">
-      </div>
-    </div>
+  <div>
+    <img class="flechas" src="../assets/image 4.png" alt="flechinhas">
+    <p class="parceira">sua parceira para soluções em injetoras!</p>
+  </div>
 
-    <div class="teste">
-      <img class="group" src="../assets/Group 1.png" alt="group1">
-      <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
-        Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
-        injetoras irão operar em sua capacidade máxima.</p>
+  <div class="fotos">
+    <div class="img1">
+      <img src="../assets/img1.png" alt="img1">
     </div>
+    <div class="img2">
+      <img src="../assets/img2.png" alt="img2">
+    </div>
+    <div class="img3">
+      <img src="../assets/img3.png" alt="img3">
+    </div>
+  </div>
+
+  <div class="teste">
+    <img class="group" src="../assets/Group 1.png" alt="group1">
+    <p class="text-group">Fundada em 2020, a Avante te proporciona as melhores soluções para sua máquina injetora.
+      Oferecemos manutenção preventiva, corretiva e preditiva, além de assistência técnica completa. Conosco suas
+      injetoras irão operar em sua capacidade máxima.</p>
+  </div>
 
 </template>
 
@@ -56,25 +53,29 @@
 header {
   display: flex;
   position: relative;
-  width: 100%;
-  /* display: inline-block; */
+  width: 100vw;
 }
 
 .banner {
   display: block;
-  width: 100%;
+  width: 100vw;
+
+  & img {
+    max-width: 100vw;
+  }
+
 }
 
 .degrade {
   position: absolute;
-      top: 0; 
-      left: 0; 
-      width: 100%; 
-      height: 100%; 
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-      text-align: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
 }
 
@@ -137,9 +138,9 @@ header {
 .teste {
   display: grid;
   place-items: center;
-      position: relative; /* Permite o posicionamento absoluto dentro do contêiner */
+  position: relative;
 
-    }
+}
 
 .group {
   margin-top: 9%;
@@ -158,5 +159,112 @@ header {
   font-size: 18px;
   line-height: 170%;
   width: 80%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  header {
+    display: flex;
+    position: relative;
+    width: 17.9%;
+    height: 101%;
+    margin: -3%;
+    margin-top: -1%;
+  }
+
+  .banner {
+    display: block;
+    width: 588%;
+    height: 100%;
+    margin-top: 6%;
+  }
+
+  .group {
+    max-width: 90vw;
+    height: 100%;
+    border-radius: 20px;
+
+  }
+
+  .teste {
+    margin-top: -10%;
+    left: 1%;
+
+  }
+
+  .text-group {
+    top: 40%;
+    left: 10%;
+    font-size: 10px;
+    line-height: 170%;
+    width: 80%;
+
+  }
+
+
+  .degrade {
+    position: absolute;
+    margin-top: 6%;
+    left: 0;
+    width: 583%;
+    height: 101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(153, 153, 153, 0) 10%, rgba(153, 153, 153, 0) 30%, #FFFFFF 99%), rgba(217, 217, 217, 0.4);
+  }
+
+  .somosavante {
+    font-size: 25px;
+    margin-left: 8%;
+    margin-top: 2%;
+    padding: 1.5%;
+  }
+
+  .flechas {
+    display: flex;
+    width: 4%;
+    height: 14%;
+    margin-left: 23%;
+
+    top: -34%;
+  }
+
+  .parceira {
+    display: flex;
+    height: 30%;
+    margin-top: -4.5%;
+    margin-left: 28%;
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .fotos {
+    justify-content: center;
+  }
+
+  .img1 {
+    display: none;
+
+  }
+
+  .img2 {
+    display: none;
+  }
+
+  img {
+
+    margin-left: -1%;
+    height: 77%;
+    width: 100%;
+  }
+
+  .group {
+    margin-left: 2%;
+    height: 22vw;
+    width: 100vw;
+  }
+
 }
 </style>
